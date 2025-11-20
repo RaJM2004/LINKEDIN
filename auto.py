@@ -36,7 +36,7 @@ def start_messaging_bot(username: str, password: str, gemini_api_key: str | None
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
     wait = WebDriverWait(driver, 15)
 
     def find_messages():

@@ -4,36 +4,32 @@ FROM python:3.11-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies required for Chrome
+# 1. Install system dependencies & Google Chrome
 RUN apt-get update && apt-get install -y \
     wget \
-    gnupg \
-    --no-install-recommends
+    unzip \
+    --no-install-recommends \
+    && wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+    && apt-get install -y ./google-chrome-stable_current_amd64.deb \
+    && rm google-chrome-stable_current_amd64.deb
 
-# Add Google Chrome's official repository
-RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
-    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
+# 2. Install a matching Chromedriver
+# Get the latest stable Chrome version and construct the Chromedriver URL
+RUN CHROME_VERSION=$(google-chrome --version | cut -f 3 -d ' ' | cut -d '.' -f 1-3) \
+    && DRIVER_VERSION=$(wget -qO- "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}") \
+    && wget -q "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip" \
+    && unzip chromedriver_linux64.zip \
+    && mv chromedriver /usr/bin/chromedriver \
+    && chmod +x /usr/bin/chromedriver \
+    && rm chromedriver_linux64.zip
 
-# Install Google Chrome
-RUN apt-get update && apt-get install -y \
-    google-chrome-stable \
-    --no-install-recommends
-
-# Copy the requirements file into the container
+# 3. Install Python dependencies
 COPY requirements.txt .
-
-# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application's code into the container
+# 4. Copy application code
 COPY . .
 
-# Make port 5000 available to the world outside this container
-# (Render's default port for web services is 10000, but gunicorn will run on 5000 and Render will map it)
+# 5. Expose port and run application
 EXPOSE 5000
-
-# Define environment variable for the port
-ENV PORT 5000
-
-# Run the application using gunicorn
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "dashboard:app"]
