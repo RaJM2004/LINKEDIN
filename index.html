@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zerokost – LinkedIn Automation Suite</title>
+
+<style>
+/* ---------------------- */
+/* FONTS + RESET */
+/* ---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #07080d;
+    color: #e9ecf1;
+    overflow-x: hidden;
+}
+
+/* ---------------------- */
+/* GLOBAL */
+/* ---------------------- */
+
+section { padding: 100px 8%; }
+a { text-decoration: none; }
+
+.btn {
+    padding: 14px 34px;
+    background: linear-gradient(135deg, #745bff, #b05bff);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    transition: .25s;
+}
+.btn:hover { transform: translateY(-3px) scale(1.03); }
+
+/* ---------------------- */
+/* NAVBAR */
+/* ---------------------- */
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 18px 8%;
+    top: 0;
+    background: rgba(10,10,20,0.65);
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+nav h2 {
+    color: #b07aff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* ---------------------- */
+/* ANIMATED BACKGROUND */
+/* ---------------------- */
+.bg-animations {
+    position: absolute;
+    top: 0; left: 0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    z-index:-1;
+}
+
+.circle {
+    position:absolute;
+    border-radius:50%;
+    filter: blur(70px);
+    animation: float 10s infinite ease-in-out alternate;
+}
+
+.circle1 {
+    width:350px; height:350px;
+    background:#6a5aff;
+    top:5%; left:10%;
+}
+.circle2 {
+    width:400px; height:400px;
+    background:#ff59c7;
+    top:60%; left:70%;
+    animation-duration: 14s;
+}
+.circle3 {
+    width:250px; height:250px;
+    background:#4c97ff;
+    top:30%; left:40%;
+    animation-duration: 12s;
+}
+
+@keyframes float {
+    0% { transform:translateY(0px); }
+    100% { transform:translateY(-120px); }
+}
+
+/* ---------------------- */
+/* HERO SECTION */
+/* ---------------------- */
+.hero {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.hero-text {
+    width:50%;
+    animation: slideLeft 1.2s ease forwards;
+    opacity:0;
+}
+
+@keyframes slideLeft {
+    from{ transform:translateX(-40px); opacity:0; }
+    to{ transform:translateX(0); opacity:1; }
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    background: linear-gradient(135deg, #a47aff, #78b0ff, #ff6fd5);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-family:"Poppins",sans-serif;
+}
+
+.hero p {
+    margin-top: 14px;
+    font-size: 17px;
+    opacity: .85;
+    max-width: 500px;
+}
+
+.video {
+    width:50%;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 35px rgba(0,0,0,0.5);
+    animation: slideRight 1.2s ease forwards;
+    opacity:0;
+}
+
+@keyframes slideRight {
+    from{ transform:translateX(40px); opacity:0; }
+    to{ transform:translateX(0); opacity:1; }
+}
+
+    .video iframe, .video video {
+        width:100%;
+        height:360px;
+        border:none;
+    }
+
+/* ---------------------- */
+/* SECTIONS */
+/* ---------------------- */
+h2 {
+    font-size: 34px;
+    font-family: "Poppins";
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, #8f7aff, #7fc2ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.sub {
+    opacity: .65;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+    gap:28px;
+}
+
+.card {
+    padding:28px;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:18px;
+    backdrop-filter:blur(8px);
+    transition:.3s;
+}
+.card:hover {
+    transform:translateY(-6px) scale(1.02);
+    background:rgba(255,255,255,0.12);
+    border-color:#8f7aff;
+}
+
+/* ROI */
+.highlight {
+    font-size:30px;
+    font-weight:700;
+    background:linear-gradient(135deg, #b68cff, #ff63c7);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* CTA */
+.cta {
+    text-align:center;
+    background:linear-gradient(135deg, #151622, #11121b);
+    border-top:1px solid #2d3040;
+    padding:100px 8%;
+}
+
+/* FOOTER */
+footer {
+    text-align:center;
+    padding:28px;
+    opacity:.55;
+    font-size:14px;
+}
+
+@media(max-width:900px){
+    .hero { flex-direction:column; text-align:center; }
+    .hero-text, .video { width:100%; }
+    .video iframe { height:260px; }
+    .hero h1 { font-size:36px; }
+}
+
+:root{ --brand1:#745bff; --brand2:#b05bff; --bg:#07080d; --text:#e9ecf1; --card:#10131a; --cardBorder:#232633; --accent:#8f7aff; }
+.section-muted{ background: linear-gradient(135deg, #0b0d14, #0a0c12); border-top:1px solid #1f2330; border-bottom:1px solid #1f2330; }
+.card { position:relative; padding:24px; background: linear-gradient(180deg, #10131a 0%, #0c0f16 100%); border:1px solid var(--cardBorder); border-radius:18px; box-shadow: 0 6px 18px rgba(0,0,0,0.35); transition: .25s ease; }
+.card:before{ content:""; position:absolute; inset:0; border-radius:18px; padding:1px; background: linear-gradient(135deg, rgba(143,122,255,.6), rgba(127,194,255,.6)); -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0); -webkit-mask-composite:xor; mask-composite:exclude; }
+.card:hover { transform:translateY(-6px); box-shadow: 0 10px 26px rgba(0,0,0,0.5); }
+.card h3{ font-size:20px; margin-bottom:8px; color:#d9dcff; }
+.card p{ opacity:.85; }
+.card .icon{ width:52px; height:52px; border-radius:14px; display:flex; align-items:center; justify-content:center; background: linear-gradient(135deg, rgba(143,122,255,.25), rgba(127,194,255,.25)); color:#fff; margin-bottom:12px; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08); }
+.card .icon svg{ width:26px; height:26px; }
+.features-sub{ display:flex; gap:18px; flex-wrap:wrap; margin-top:12px; }
+.chip{ padding:8px 12px; border:1px solid #2a2d3a; border-radius:999px; background:#0f1218; color:#b6bbff; font-weight:600; font-size:13px; }
+</style>
+</head>
+<body>
+
+<!-- Animated Background -->
+<div class="bg-animations">
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>Zerokost</h2>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Automate LinkedIn.  
+        Grow Smarter. Look Active 24/7.</h1>
+        <p>
+            A fully automated LinkedIn system built for founders, teams and hospitals.
+            With AI-powered content, auto posting, instant replies and daily engagement —
+            Zerokost turns your profile into a growth engine.
+        </p><br />
+        <a href="/dashboard" class="btn">Explore Now</a>
+    </div>
+
+    <div class="video">
+        <video src="/static/Video.mp4" autoplay muted loop playsinline></video>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+    <h2>Everything You Need. Automated.</h2>
+    <p class="sub">A complete LinkedIn automation suite powered by AI.</p>
+
+    <div class="grid">
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h10" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>AI Content Engine</h3>
+            <p>Fresh posts crafted to your industry and tone, scheduled intelligently.</p>
+            <div class="features-sub">
+                <span class="chip">Daily cadence</span>
+                <span class="chip">Industry templates</span>
+                <span class="chip">Hashtags tuned</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Auto Posting</h3>
+            <p>Queues and publishes content so your profile stays active every day.</p>
+            <div class="features-sub">
+                <span class="chip">Smart queue</span>
+                <span class="chip">Peak hours</span>
+                <span class="chip">Fail-safe</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M8 12l3 3 5-6" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Smart Networking</h3>
+            <p>Targets founders, tech leaders and specialists with Connect/Follow actions.</p>
+            <div class="features-sub">
+                <span class="chip">Keyword search</span>
+                <span class="chip">Categories</span>
+                <span class="chip">Safety delays</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v10H8l-4 4V5z" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Instant Replies</h3>
+            <p>Responds to inbox messages with short, friendly replies using rules or AI.</p>
+            <div class="features-sub">
+                <span class="chip">Under 40 words</span>
+                <span class="chip">Professional tone</span>
+                <span class="chip">No emojis</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#d9dcff" stroke-width="2"/><path d="M12 7v5l3 3" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>24/7 Automation</h3>
+            <p>Keeps working while you’re offline so growth never stops.</p>
+            <div class="features-sub">
+                <span class="chip">Background jobs</span>
+                <span class="chip">Resilient flows</span>
+                <span class="chip">Health checks</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 18h16M7 15l3-3 2 2 5-5" stroke="#d9dcff" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Growth Insights</h3>
+            <p>Simple visuals show attempts, successes and any blocked actions.</p>
+            <div class="features-sub">
+                <span class="chip">Task status</span>
+                <span class="chip">Live logs</span>
+                <span class="chip">Export</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOSPITAL -->
+<section id="hospital">
+    <h2>Built for Hospitals Too</h2>
+    <p class="sub">Health awareness. Patient engagement. Hospital branding.</p>
+
+    <div class="grid">
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 4v5c0 5-7 9-7 9s-7-4-7-9V7l7-4z" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Health Awareness Posts</h3><p>Daily health tips and awareness content tailored to your specialty.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v14H8l-3 3V4z" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Auto Patient Replies</h3><p>Instant answers for timings, OPD and basic queries in a friendly tone.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M7 7h10M7 12h10M7 17h6" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Doctor Introductions</h3><p>Clean profiles for specialists with expertise highlights and schedule info.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3 6 6 .5-4.5 4 1.5 6-6-3.5-6 3.5 1.5-6L3 8.5l6-.5 3-6z" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Brand Trust</h3><p>Consistent voice and presence to position your hospital as a leader.</p></div>
+    </div>
+</section>
+
+<!-- ROI -->
+<section id="roi">
+    <h2>Why People Choose Zerokost</h2>
+    <p class="sub">Clear, measurable outcomes.</p>
+
+    <div class="grid">
+        <div class="card"><span class="highlight">90%</span><p>Less manual workload</p></div>
+        <div class="card"><span class="highlight">3×</span><p>More engagement</p></div>
+        <div class="card"><span class="highlight">24/7</span><p>Always active</p></div>
+        <div class="card"><span class="highlight">Seconds</span><p>Reply speed</p></div>
+    </div>
+</section>
+
+<section class="section-muted" id="how">
+    <h2>How It Works</h2>
+    <p class="sub">Set up once, then let automation run safely.</p>
+    <div class="grid">
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Save Credentials</h3><p>Use the dashboard to store your login locally in the browser.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Start Actions</h3><p>Run posting, connections or messaging from clean, simple forms.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 18h16M7 15l3-3 2 2 5-5" stroke="#d9dcff" stroke-width="2"/></svg></div><h3>Watch Progress</h3><p>See task counts and live logs on the dashboard while it runs.</p></div>
+    </div>
+</section>
+
+<!-- CTA -->
+<div class="cta">
+    <h2>Want to See Zerokost Live?</h2>
+    <p class="sub">Get a full walkthrough of the system and features.</p>
+    <a class="btn" href="https://zerokost.com/#/contact">Book a Demo</a>
+</div>
+
+<footer>© 2025 Zerokost Automation Suite</footer>
+
+</body>
+</html>

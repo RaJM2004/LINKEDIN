@@ -1,0 +1,8 @@
+16:57:11 - INFO - ✅ Chrome driver setup successfully
+16:57:11 - INFO - 🔐 Logging into LinkedIn...
+16:57:20 - INFO - ✅ Email entered
+16:57:20 - INFO - ✅ Password entered
+16:57:29 - INFO - ✅ Login button clicked
+16:57:37 - INFO - ✅ Login successful!
+16:58:09 - WARNING - No action buttons found for 'AUTOMATION' on page 1
+16:58:12 - INFO - 🔚 Browser closed

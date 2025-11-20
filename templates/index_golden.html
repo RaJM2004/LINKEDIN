@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinkedIn Automation Dashboard</title>
+  <style>
+    :root { --bg:#0b0b0b; --card:#121212cc; --muted:#1a1a1acc; --gold:#d4af37; --text:#f5f5f5; --text-muted:#b0b0b0; }
+    html,body { height:100%; }
+    body { font-family: Inter, Arial, sans-serif; margin:0; color:var(--text);
+      background-image: linear-gradient(rgba(11,11,11,0.60), rgba(11,11,11,0.60)), url('https://wallpapers.com/images/hd/technology-linkedin-background-dce01jsbpnn0z2ej.jpg');
+      background-size: cover; background-position: center; background-attachment: fixed; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px; box-sizing: border-box; }
+    .header { display:flex; align-items:center; justify-content:space-between; margin-bottom:24px; flex-wrap:wrap; gap:8px; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .logo { height:38px; width:auto; object-fit:contain; }
+    .title { font-size: 24px; font-weight: 700; letter-spacing: 0.5px; }
+    .badge { background: var(--gold); color:#111; padding:6px 10px; border-radius: 6px; font-weight:600; }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; align-items:start; }
+    .card { background: var(--card); border: 1px solid #222; border-radius: 10px; padding:16px; box-shadow: 0 0 0 1px #000; backdrop-filter: blur(2px); }
+    .card h2 { margin:0 0 10px 0; font-size:16px; color: var(--gold); }
+    label { display:block; margin:8px 0 4px; color: var(--text-muted); }
+    input, select { width: 100%; padding:10px; border-radius:8px; border:1px solid #333; background: var(--muted); color: var(--text); }
+    button { margin-top: 12px; padding:10px 14px; border-radius:8px; border:1px solid var(--gold); background: var(--gold); color:#111; font-weight:700; cursor:pointer; }
+    button.secondary { background: transparent; color: var(--gold); }
+    .flash { padding:10px; margin-bottom:12px; border:1px solid #333; background:#131313; }
+    .logs { display:grid; grid-template-columns: 1fr 1fr; gap:16px; align-items:start; }
+    .logbox { background: var(--card); border:1px solid #222; border-radius:10px; padding:10px; }
+    .logbox pre { height:260px; overflow:auto; background:#0f0f0fcc; border:1px solid #222; padding:10px; border-radius:8px; color:#d8d8d8; max-width:100%; white-space:pre-wrap; word-break:break-word; }
+    .status-counts { display:flex; gap:12px; margin-bottom:10px; flex-wrap:wrap; }
+    .chip { background: var(--muted); border:1px solid #333; color: var(--gold); padding:6px 10px; border-radius: 999px; font-weight:600; }
+    .table-wrap { width:100%; overflow-x:auto; }
+    table { width:100%; border-collapse: collapse; min-width:560px; }
+    th, td { border-bottom: 1px solid #222; padding: 8px; text-align: left; }
+    th { color: var(--gold); font-weight:700; }
+    @media (max-width: 1100px){ .grid{ grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 800px){ .grid{ grid-template-columns: 1fr; } .logs{ grid-template-columns: 1fr; } button{ width:100%; } .logbox pre{ height:200px; } body{ background-attachment: scroll; } }
+  </style>
+  <script>
+    function loadSavedCredentials() {
+      var email = localStorage.getItem('li_email') || '';
+      var password = localStorage.getItem('li_password') || '';
+      var eTop = document.getElementById('cred-email'); if (eTop) eTop.value = email;
+      var pTop = document.getElementById('cred-password'); if (pTop) pTop.value = password;
+      var chk = document.getElementById('remember'); if (chk) chk.checked = !!email;
+      document.querySelectorAll('form').forEach(f=>{
+        var he = f.querySelector('input[type=hidden][name=email]'); if (he) he.value = email;
+        var hp = f.querySelector('input[type=hidden][name=password]'); if (hp) hp.value = password;
+      });
+    }
+    function saveCredentialsIfChecked() {
+      var chk = document.getElementById('remember');
+      if (chk && chk.checked) {
+        var email = document.getElementById('cred-email').value;
+        var password = document.getElementById('cred-password').value;
+        localStorage.setItem('li_email', email);
+        localStorage.setItem('li_password', password);
+      }
+    }
+    function saveTopCredentials(){ saveCredentialsIfChecked(); loadSavedCredentials(); }
+    function clearSavedCredentials() { localStorage.removeItem('li_email'); localStorage.removeItem('li_password'); loadSavedCredentials(); }
+    function fetchStatus(){
+      fetch('/status').then(r=>r.json()).then(d=>{
+        var cc = document.getElementById('count-connect');
+        var cm = document.getElementById('count-messaging');
+        var cp = document.getElementById('count-post');
+        if (cc) cc.textContent = (d.connect||[]).length;
+        if (cm) cm.textContent = (d.messaging||[]).length;
+        if (cp) cp.textContent = (d.post||[]).length;
+        var tbody = document.getElementById('status-tbody');
+        if (tbody) {
+          tbody.innerHTML = '';
+          ['connect','messaging','post'].forEach(function(kind){
+            (d[kind]||[]).forEach(function(t){
+              var tr = document.createElement('tr');
+              var tdId = document.createElement('td'); tdId.textContent = t.id;
+              var tdKind = document.createElement('td'); tdKind.textContent = kind;
+              var tdStatus = document.createElement('td'); tdStatus.textContent = t.status;
+              var tdMsg = document.createElement('td'); tdMsg.textContent = t.message || '';
+              tr.appendChild(tdId); tr.appendChild(tdKind); tr.appendChild(tdStatus); tr.appendChild(tdMsg);
+              tbody.appendChild(tr);
+            });
+          });
+        }
+      }).catch(()=>{});
+    }
+    function fetchLogs(){ fetch('/logs').then(r=>r.json()).then(d=>{ var a = document.getElementById('agent-log'); if (a) a.textContent = d.agent || ''; var c = document.getElementById('connect-log'); if (c) c.textContent = d.connect || ''; }).catch(()=>{}); }
+    document.addEventListener('DOMContentLoaded', function(){
+      loadSavedCredentials();
+      setTimeout(function(){ var els=document.querySelectorAll('.flash'); els.forEach(e=>e.remove()); }, 5000);
+      document.querySelectorAll('form').forEach(f=>{ f.addEventListener('submit', function(){ saveCredentialsIfChecked(); loadSavedCredentials(); }); });
+      fetchStatus(); setInterval(fetchStatus, 5000);
+      fetchLogs(); setInterval(fetchLogs, 2000);
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">
+        <img class="logo" src="https://zerokost.com/logo.png" alt="Company Logo" />
+        <div class="title">LinkedIn Automation Dashboard</div>
+      </div>
+      
+    </div>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="flash">{{ message }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div class="card">
+      <h2>Task Status</h2>
+      <div class="status-counts">
+        <div class="chip">Connect: <span id="count-connect">0</span></div>
+        <div class="chip">Messaging: <span id="count-messaging">0</span></div>
+        <div class="chip">Post: <span id="count-post">0</span></div>
+      </div>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Kind</th>
+            <th>Status</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody id="status-tbody"></tbody>
+      </table>
+      </div>
+      <button type="button" onclick="fetchStatus()">Refresh Status</button>
+    </div>
+
+    <div class="card">
+      <h2>Credentials</h2>
+      <label>Email</label>
+      <input id="cred-email" type="email" />
+      <label>Password</label>
+      <input id="cred-password" type="password" />
+      <label><input id="remember" type="checkbox" />Remember credentials on this browser</label>
+      <div style="display:flex;gap:8px;">
+        <button type="button" onclick="saveTopCredentials()">Save</button>
+        <button class="secondary" type="button" onclick="clearSavedCredentials()">Clear Saved</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <form class="card" method="post" action="/post">
+        <h2>Create Post</h2>
+        <label>OpenAI API Key (optional)</label>
+        <input name="openai_key" type="text" />
+        <label>Industry</label>
+        <select name="industry">
+          <option value="tech">tech</option>
+          <option value="business">business</option>
+          <option value="marketing">marketing</option>
+        </select>
+        <label>Topic (optional)</label>
+        <input name="topic" type="text" />
+        <input type="hidden" name="email" />
+        <input type="hidden" name="password" />
+        <button type="submit">Create Post</button>
+      </form>
+
+      <form class="card" method="post" action="/connect">
+        <h2>Connections</h2>
+        <label>Keyword (optional, uses diverse strategy if blank)</label>
+        <input name="keyword" type="text" />
+        <label>Max Connections</label>
+        <input name="max_connections" type="number" value="20" min="1" max="200" />
+        <input type="hidden" name="email" />
+        <input type="hidden" name="password" />
+        <button type="submit">Start Connections</button>
+      </form>
+
+      <form class="card" method="post" action="/messaging">
+        <h2>Messaging Bot</h2>
+        <label>Gemini API Key (optional)</label>
+        <input name="gemini_key" type="text" />
+        <input type="hidden" name="email" />
+        <input type="hidden" name="password" />
+        <button type="submit">Start Messaging Bot</button>
+      </form>
+    </div>
+
+    <div class="logs" style="margin-top:16px;">
+      <div class="logbox">
+        <h2>Agent Logs</h2>
+        <pre id="agent-log"></pre>
+      </div>
+      <div class="logbox">
+        <h2>Connect Logs</h2>
+        <pre id="connect-log"></pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>LinkedIn Automation Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    h1 { margin-bottom: 8px; }
+    form { border: 1px solid #ddd; padding: 16px; margin-bottom: 16px; }
+    label { display:block; margin:8px 0 4px; }
+    input, select { width: 100%; padding:8px; }
+    button { margin-top: 12px; padding:8px 12px; }
+    .flash { padding:8px; margin-bottom:12px; border:1px solid #ccc; }
+  </style>
+  <script>
+    function loadSavedCredentials() {
+      var email = localStorage.getItem('li_email') || '';
+      var password = localStorage.getItem('li_password') || '';
+      document.querySelectorAll('input[name="email"]').forEach(i=>i.value=email);
+      document.querySelectorAll('input[name="password"]').forEach(i=>i.value=password);
+      var chk = document.getElementById('remember');
+      if (chk) chk.checked = !!email;
+    }
+    function saveCredentialsIfChecked(form) {
+      var chk = document.getElementById('remember');
+      if (chk && chk.checked) {
+        var email = form.querySelector('input[name="email"]').value;
+        var password = form.querySelector('input[name="password"]').value;
+        localStorage.setItem('li_email', email);
+        localStorage.setItem('li_password', password);
+      }
+    }
+    function clearSavedCredentials() {
+      localStorage.removeItem('li_email');
+      localStorage.removeItem('li_password');
+      loadSavedCredentials();
+    }
+    document.addEventListener('DOMContentLoaded', function(){
+      loadSavedCredentials();
+      setTimeout(function(){ var els=document.querySelectorAll('.flash'); els.forEach(e=>e.remove()); }, 5000);
+      document.querySelectorAll('form').forEach(f=>{
+        f.addEventListener('submit', function(){ saveCredentialsIfChecked(f); });
+      });
+    });
+    function fetchStatus(){
+      fetch('/status').then(r=>r.json()).then(d=>{
+        try{
+          var pre = document.getElementById('status-pre');
+          if (pre) pre.textContent = JSON.stringify(d, null, 2);
+        }catch(e){}
+      }).catch(()=>{});
+    }
+  </script>
+</head>
+<body>
+  <h1>LinkedIn Automation Dashboard</h1>
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <div id="status" style="border:1px solid #ddd;padding:12px;margin-bottom:16px">
+    <h2>Task Status</h2>
+    <pre id="status-pre" style="white-space:pre-wrap"></pre>
+    <button type="button" onclick="fetchStatus()">Refresh Status</button>
+  </div>
+
+  <form onsubmit="return false;" style="border-color:#bbb;background:#fafafa;">
+    <h2>Credentials</h2>
+    <label>Email</label>
+    <input name="email" type="email" />
+    <label>Password</label>
+    <input name="password" type="password" />
+    <label><input id="remember" type="checkbox" /> Remember credentials on this browser</label>
+    <button type="button" onclick="localStorage.setItem('li_email', document.querySelector('form[onsubmit] input[name=\'email\']').value); localStorage.setItem('li_password', document.querySelector('form[onsubmit] input[name=\'password\']').value); loadSavedCredentials();">Save</button>
+    <button type="button" onclick="clearSavedCredentials()">Clear Saved</button>
+  </form>
+
+  <form method="post" action="/post">
+    <h2>Create Post</h2>
+    <label>Email</label>
+    <input name="email" type="email" required />
+    <label>Password</label>
+    <input name="password" type="password" required />
+    <label>OpenAI API Key (optional)</label>
+    <input name="openai_key" type="text" />
+    <label>Industry</label>
+    <select name="industry">
+      <option value="tech">tech</option>
+      <option value="business">business</option>
+      <option value="marketing">marketing</option>
+    </select>
+    <label>Topic (optional)</label>
+    <input name="topic" type="text" />
+    <button type="submit">Create Post</button>
+  </form>
+
+  <form method="post" action="/connect">
+    <h2>Connections</h2>
+    <label>Email</label>
+    <input name="email" type="email" required />
+    <label>Password</label>
+    <input name="password" type="password" required />
+    <label>Keyword (optional, uses diverse strategy if blank)</label>
+    <input name="keyword" type="text" />
+    <label>Max Connections</label>
+    <input name="max_connections" type="number" value="20" min="1" max="200" />
+    <button type="submit">Start Connections</button>
+  </form>
+
+  <form method="post" action="/messaging">
+    <h2>Messaging Bot</h2>
+    <label>Email</label>
+    <input name="email" type="email" required />
+    <label>Password</label>
+    <input name="password" type="password" required />
+    <label>Gemini API Key (optional)</label>
+    <input name="gemini_key" type="text" />
+    <button type="submit">Start Messaging Bot</button>
+  </form>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      loadSavedCredentials();
+      setTimeout(function(){ var els=document.querySelectorAll('.flash'); els.forEach(e=>e.remove()); }, 5000);
+      document.querySelectorAll('form').forEach(f=>{
+        f.addEventListener('submit', function(){ saveCredentialsIfChecked(f); });
+      });
+      fetchStatus();
+      setInterval(fetchStatus, 5000);
+    });
+  </script>
+</body>
+</html>

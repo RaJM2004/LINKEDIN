@@ -1,0 +1,6 @@
+flask
+selenium
+openai
+google-generativeai
+webdriver-manager
+gunicorn

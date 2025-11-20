@@ -1,0 +1,1262 @@
+2025-08-18 15:25:03,347 - INFO - Starting LinkedIn automation...
+2025-08-18 15:25:07,115 - INFO - Logging in to LinkedIn...
+2025-08-18 15:25:21,999 - INFO - Successfully logged in to LinkedIn
+2025-08-18 15:25:21,999 - INFO - Generating content...
+2025-08-18 15:25:25,221 - INFO - Generated content: Excited to discuss the impact of artificial intelligence in the tech industry!  How do you think AI ...
+2025-08-18 15:25:25,222 - INFO - Creating LinkedIn post...
+2025-08-18 15:25:25,223 - INFO - Cleaned content: Excited to discuss the impact of artificial intelligence in the tech industry!  How do you think AI ...
+2025-08-18 15:25:51,011 - INFO - Post created successfully!
+2025-08-18 15:25:51,027 - INFO - Starting connection requests for: python developer
+2025-08-18 15:25:55,941 - INFO - Found 4 connect buttons on page 1
+2025-08-18 15:26:41,694 - INFO - Found 6 connect buttons on page 2
+2025-08-18 15:26:56,315 - INFO - Browser closed
+2025-08-18 15:27:16,114 - INFO - Starting LinkedIn automation...
+2025-08-18 15:27:18,385 - INFO - Logging in to LinkedIn...
+2025-08-18 15:27:18,865 - ERROR - Login failed: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=139.0.7258.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73ffc6b25+79621]
+	GetHandleVerifier [0x0x7ff73ffc6b80+79712]
+	(No symbol) [0x0x7ff73fd5c0ea]
+	(No symbol) [0x0x7ff73fd58e90]
+	(No symbol) [0x0x7ff73fd49cb9]
+	(No symbol) [0x0x7ff73fd4ba71]
+	(No symbol) [0x0x7ff73fd49fd6]
+	(No symbol) [0x0x7ff73fd49a36]
+	(No symbol) [0x0x7ff73fd496fa]
+	(No symbol) [0x0x7ff73fd472c8]
+	(No symbol) [0x0x7ff73fd47b4c]
+	(No symbol) [0x0x7ff73fd6009a]
+	(No symbol) [0x0x7ff73fe0416e]
+	(No symbol) [0x0x7ff73fddb13a]
+	(No symbol) [0x0x7ff73fe033d0]
+	(No symbol) [0x0x7ff73fddaf13]
+	(No symbol) [0x0x7ff73fda4151]
+	(No symbol) [0x0x7ff73fda4ee3]
+	GetHandleVerifier [0x0x7ff74028683d+2962461]
+	GetHandleVerifier [0x0x7ff740280b5d+2938685]
+	GetHandleVerifier [0x0x7ff74029f71d+3064573]
+	GetHandleVerifier [0x0x7ff73ffe0c6e+186446]
+	GetHandleVerifier [0x0x7ff73ffe8a3f+218655]
+	GetHandleVerifier [0x0x7ff73ffcf914+115956]
+	GetHandleVerifier [0x0x7ff73ffcfac9+116393]
+	GetHandleVerifier [0x0x7ff73ffb5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffcf1a2e8d7+23]
+	RtlUserThreadStart [0x0x7ffcf333c34c+44]
+
+2025-08-18 15:27:21,334 - INFO - Browser closed
+2025-08-18 15:27:39,692 - INFO - Starting LinkedIn automation...
+2025-08-18 15:27:42,154 - INFO - Logging in to LinkedIn...
+2025-08-18 15:28:35,269 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73ffc6b25+79621]
+	GetHandleVerifier [0x0x7ff73ffc6b80+79712]
+	(No symbol) [0x0x7ff73fd5c0ea]
+	(No symbol) [0x0x7ff73fdb2f56]
+	(No symbol) [0x0x7ff73fdb320c]
+	(No symbol) [0x0x7ff73fe065b7]
+	(No symbol) [0x0x7ff73fddb17f]
+	(No symbol) [0x0x7ff73fe033d0]
+	(No symbol) [0x0x7ff73fddaf13]
+	(No symbol) [0x0x7ff73fda4151]
+	(No symbol) [0x0x7ff73fda4ee3]
+	GetHandleVerifier [0x0x7ff74028683d+2962461]
+	GetHandleVerifier [0x0x7ff740280b5d+2938685]
+	GetHandleVerifier [0x0x7ff74029f71d+3064573]
+	GetHandleVerifier [0x0x7ff73ffe0c6e+186446]
+	GetHandleVerifier [0x0x7ff73ffe8a3f+218655]
+	GetHandleVerifier [0x0x7ff73ffcf914+115956]
+	GetHandleVerifier [0x0x7ff73ffcfac9+116393]
+	GetHandleVerifier [0x0x7ff73ffb5ef8+10968]
+	BaseThreadInitThunk [0x0x7ffcf1a2e8d7+23]
+	RtlUserThreadStart [0x0x7ffcf333c34c+44]
+
+2025-08-18 15:28:37,746 - INFO - Browser closed
+2025-08-18 15:34:12,242 - INFO - Starting LinkedIn automation...
+2025-08-18 15:34:15,447 - INFO - Logging in to LinkedIn...
+2025-08-18 15:34:32,031 - INFO - Successfully logged in to LinkedIn
+2025-08-18 15:34:32,032 - INFO - Generating content...
+2025-08-18 15:34:35,207 - INFO - Generated content: Exciting developments in artificial intelligence (AI) are reshaping the tech industry! From machine ...
+2025-08-18 15:34:35,210 - INFO - Creating LinkedIn post...
+2025-08-18 15:34:35,210 - INFO - Cleaned content: Exciting developments in artificial intelligence (AI) are reshaping the tech industry! From machine ...
+2025-08-18 15:35:04,106 - INFO - Post created successfully!
+2025-08-18 15:35:04,129 - INFO - Starting connection requests for: python developer
+2025-08-18 15:35:09,815 - INFO - Found 0 connect buttons on page 1
+2025-08-18 15:35:14,209 - INFO - Found 6 connect buttons on page 2
+2025-08-18 15:36:08,025 - INFO - Browser closed
+2025-08-18 16:51:39,111 - INFO - ============================================================
+2025-08-18 16:52:37,260 - INFO - ============================================================
+2025-08-18 16:52:39,009 - INFO - Logging in to LinkedIn...
+2025-08-18 16:52:53,615 - INFO - Successfully logged in to LinkedIn
+2025-08-18 16:52:55,886 - INFO - Creating LinkedIn post...
+2025-08-18 16:52:55,887 - INFO - Cleaned content: Ready for this Monday's industry prediction in tech?  As remote work continues to reshape our profes...
+2025-08-18 16:53:13,401 - ERROR - Post creation failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=139.0.7258.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72d016b25+79621]
+	GetHandleVerifier [0x0x7ff72d016b80+79712]
+	(No symbol) [0x0x7ff72cdac0ea]
+	(No symbol) [0x0x7ff72cd99a0c]
+	(No symbol) [0x0x7ff72cd996fa]
+	(No symbol) [0x0x7ff72cd972c8]
+	(No symbol) [0x0x7ff72cd97d2f]
+	(No symbol) [0x0x7ff72cda694e]
+	(No symbol) [0x0x7ff72cdbc911]
+	(No symbol) [0x0x7ff72cdc3a6a]
+	(No symbol) [0x0x7ff72cd984cd]
+	(No symbol) [0x0x7ff72cdbc101]
+	(No symbol) [0x0x7ff72ce5373d]
+	(No symbol) [0x0x7ff72ce2af13]
+	(No symbol) [0x0x7ff72cdf4151]
+	(No symbol) [0x0x7ff72cdf4ee3]
+	GetHandleVerifier [0x0x7ff72d2d683d+2962461]
+	GetHandleVerifier [0x0x7ff72d2d0b5d+2938685]
+	GetHandleVerifier [0x0x7ff72d2ef71d+3064573]
+	GetHandleVerifier [0x0x7ff72d030c6e+186446]
+	GetHandleVerifier [0x0x7ff72d038a3f+218655]
+	GetHandleVerifier [0x0x7ff72d01f914+115956]
+	GetHandleVerifier [0x0x7ff72d01fac9+116393]
+	GetHandleVerifier [0x0x7ff72d005ef8+10968]
+	BaseThreadInitThunk [0x0x7ffcf1a2e8d7+23]
+	RtlUserThreadStart [0x0x7ffcf333c34c+44]
+
+2025-08-18 16:53:15,272 - INFO - --------------------------------------------------
+2025-08-18 16:53:16,283 - INFO - 
+============================================================
+2025-08-18 16:53:16,285 - INFO - ============================================================
+2025-08-18 16:53:16,299 - INFO - ============================================================
+2025-08-18 16:58:38,555 - INFO - ============================================================
+2025-08-18 16:58:41,326 - INFO - Logging in to LinkedIn...
+2025-08-18 16:58:58,258 - INFO - Successfully logged in to LinkedIn
+2025-08-18 16:59:00,779 - INFO - Creating LinkedIn post...
+2025-08-18 16:59:00,780 - INFO - Cleaned content: Calling all tech trailblazers! This Monday afternoon, let's dive into a captivating collaboration on...
+2025-08-18 16:59:34,225 - INFO - Post created successfully!
+2025-08-18 16:59:34,236 - INFO - --------------------------------------------------
+2025-08-18 16:59:39,702 - INFO - Found 5 connect buttons for 'startup founder'
+2025-08-18 16:59:49,960 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/a2883e3532a220054e4fe23e1cd908a6
+2025-08-19 14:49:25,284 - INFO - ============================================================
+2025-08-19 14:49:28,511 - INFO - Logging in to LinkedIn...
+2025-08-19 14:49:54,272 - INFO - Successfully logged in to LinkedIn
+2025-08-19 14:49:57,960 - INFO - Creating LinkedIn post...
+2025-08-19 14:49:57,960 - INFO - Cleaned content: Let's Dive into the Digital Transformation Wave 
+
+Hey tech enthusiasts, this Tuesday afternoon calls...
+2025-08-19 14:50:33,785 - INFO - Post created successfully!
+2025-08-19 14:50:33,812 - INFO - --------------------------------------------------
+2025-08-19 14:50:39,264 - INFO - Found 2 connect buttons for 'startup founder'
+2025-08-19 14:51:05,173 - INFO - Found 6 connect buttons for 'startup founder'
+2025-08-19 14:52:02,077 - INFO - Found 3 connect buttons for 'enterprise architect'
+2025-08-19 14:52:40,753 - INFO - Found 1 connect buttons for 'enterprise architect'
+2025-08-19 14:53:09,968 - INFO - Found 5 connect buttons for 'machine learning engineer'
+2025-08-19 14:54:33,447 - WARNING - No connect buttons found for 'generative AI' on page 1
+2025-08-19 14:54:42,143 - WARNING - No connect buttons found for 'ChatGPT' on page 1
+2025-08-19 14:54:50,064 - INFO - Found 4 connect buttons for 'LLM engineer'
+2025-08-19 14:55:38,398 - INFO - Found 2 connect buttons for 'Anthropic'
+2025-08-19 14:56:02,319 - INFO - Found 3 connect buttons for 'Anthropic'
+2025-08-19 14:56:58,007 - INFO - Found 7 connect buttons for 'software engineer'
+2025-08-19 14:58:14,828 - INFO - Found 4 connect buttons for 'product manager'
+2025-08-19 14:59:06,681 - INFO - Found 6 connect buttons for 'product manager'
+2025-08-19 14:59:42,547 - WARNING - No connect buttons found for 'tech lead' on page 1
+2025-08-19 14:59:47,578 - INFO - Found 1 connect buttons for 'engineering manager'
+2025-08-19 15:00:21,932 - INFO - Found 3 connect buttons for 'venture capital'
+2025-08-19 15:00:56,178 - INFO - Found 2 connect buttons for 'venture capital'
+2025-08-19 15:01:45,845 - WARNING - No connect buttons found for 'innovation manager' on page 1
+2025-08-19 15:01:53,747 - WARNING - No connect buttons found for 'digital transformation' on page 1
+2025-08-19 15:02:01,461 - INFO - Found 5 connect buttons for 'technology consultant'
+2025-08-19 15:03:16,329 - INFO - 
+============================================================
+2025-08-19 15:03:16,337 - INFO - ============================================================
+2025-08-19 15:03:16,348 - INFO - ============================================================
+2025-08-20 17:46:38,532 - INFO - ============================================================
+2025-08-20 23:36:05,956 - INFO - ============================================================
+2025-08-20 23:36:47,890 - INFO - ============================================================
+2025-08-20 23:36:49,620 - INFO - Logging in to LinkedIn...
+2025-08-20 23:37:00,528 - INFO - Successfully logged in to LinkedIn
+2025-08-20 23:37:05,696 - INFO - Creating LinkedIn post...
+2025-08-20 23:37:05,696 - INFO - Cleaned content: Calling all tech innovators and software wizards!  This Wednesday evening, let's dive into the futur...
+2025-08-20 23:37:33,531 - INFO - Post created successfully!
+2025-08-20 23:37:33,548 - INFO - --------------------------------------------------
+2025-08-20 23:37:39,092 - INFO - Found 5 connect buttons for 'startup founder'
+2025-08-20 23:38:48,311 - INFO - Found 9 connect buttons for 'enterprise architect'
+2025-08-20 23:40:08,870 - INFO - Found 9 connect buttons for 'machine learning engineer'
+2025-08-20 23:41:31,346 - INFO - Found 10 connect buttons for 'generative AI'
+2025-08-20 23:42:39,785 - INFO - Found 3 connect buttons for 'Anthropic'
+2025-08-20 23:43:20,626 - INFO - Found 3 connect buttons for 'Anthropic'
+2025-08-20 23:44:09,951 - INFO - Found 9 connect buttons for 'software engineer'
+2025-08-20 23:45:25,062 - INFO - Found 7 connect buttons for 'product manager'
+2025-08-20 23:46:13,557 - WARNING - No connect buttons found for 'tech lead' on page 1
+2025-08-20 23:46:18,499 - WARNING - No connect buttons found for 'engineering manager' on page 1
+2025-08-20 23:46:24,415 - INFO - Found 9 connect buttons for 'CTO'
+2025-08-20 23:47:28,189 - WARNING - No connect buttons found for 'venture capital' on page 1
+2025-08-20 23:47:36,193 - INFO - Found 5 connect buttons for 'angel investor'
+2025-08-20 23:48:32,092 - WARNING - No connect buttons found for 'innovation manager' on page 1
+2025-08-20 23:48:40,799 - WARNING - No connect buttons found for 'digital transformation' on page 1
+2025-08-20 23:48:49,536 - WARNING - No connect buttons found for 'technology consultant' on page 1
+2025-08-20 23:48:49,560 - INFO - 
+============================================================
+2025-08-20 23:48:49,568 - INFO - ============================================================
+2025-08-20 23:48:49,600 - INFO - ============================================================
+2025-08-21 10:05:59,607 - INFO - ============================================================
+2025-08-21 10:06:02,998 - INFO - Logging in to LinkedIn...
+2025-08-21 10:06:19,383 - INFO - Successfully logged in to LinkedIn
+2025-08-21 10:06:21,983 - INFO - Creating LinkedIn post...
+2025-08-21 10:06:21,984 - INFO - Cleaned content: This Thursday morning, let's celebrate the power of innovation in tech! 
+
+As we embark on a new day ...
+2025-08-21 10:07:02,423 - INFO - Post created successfully!
+2025-08-21 10:07:02,622 - INFO - --------------------------------------------------
+2025-08-21 10:07:06,754 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-08-21 10:07:13,880 - INFO - Found 1 connect buttons for 'entrepreneur'
+2025-08-21 10:07:29,703 - INFO - Found 1 connect buttons for 'entrepreneur'
+2025-08-21 10:08:03,191 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-08-21 10:08:12,457 - WARNING - No connect buttons found for 'VP engineering' on page 1
+2025-08-21 10:08:21,574 - WARNING - No connect buttons found for 'director technology' on page 1
+2025-08-21 10:08:31,217 - WARNING - No connect buttons found for 'chief technology officer' on page 1
+2025-08-21 10:08:40,650 - WARNING - No connect buttons found for 'machine learning engineer' on page 1
+2025-08-21 10:08:50,907 - WARNING - No connect buttons found for 'AI researcher' on page 1
+2025-08-21 10:09:02,031 - WARNING - No connect buttons found for 'data scientist' on page 1
+2025-08-23 12:43:18,886 - INFO - ============================================================
+2025-08-23 12:43:24,024 - INFO - Logging in to LinkedIn...
+2025-08-23 12:43:43,673 - INFO - Successfully logged in to LinkedIn
+2025-08-23 12:43:47,203 - INFO - Creating LinkedIn post...
+2025-08-23 12:43:47,204 - INFO - Cleaned content: Feeling overwhelmed by the pressure to always have all the answers as a leader in tech? Embrace the ...
+2025-08-23 12:44:14,557 - INFO - Post created successfully!
+2025-08-23 12:44:14,596 - INFO - --------------------------------------------------
+2025-08-23 12:44:19,488 - INFO - Found 6 connect buttons for 'startup founder'
+2025-08-23 12:44:51,185 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/801f1a7c5a3d02f5b5e8061369c77807
+2025-08-29 14:49:23,995 - INFO - ============================================================
+2025-08-29 14:49:30,044 - INFO - Logging in to LinkedIn...
+2025-08-29 14:49:50,479 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fbfa3d85+79397]
+	GetHandleVerifier [0x0x7ff7fbfa3de0+79488]
+	(No symbol) [0x0x7ff7fbd4c0fa]
+	(No symbol) [0x0x7ff7fbda2fd6]
+	(No symbol) [0x0x7ff7fbda328c]
+	(No symbol) [0x0x7ff7fbdf6537]
+	(No symbol) [0x0x7ff7fbdcb1df]
+	(No symbol) [0x0x7ff7fbdf3344]
+	(No symbol) [0x0x7ff7fbdcaf73]
+	(No symbol) [0x0x7ff7fbd941b1]
+	(No symbol) [0x0x7ff7fbd94f43]
+	GetHandleVerifier [0x0x7ff7fc26e1ed+3005069]
+	GetHandleVerifier [0x0x7ff7fc26831d+2980797]
+	GetHandleVerifier [0x0x7ff7fc287e0d+3110573]
+	GetHandleVerifier [0x0x7ff7fbfbd6de+184190]
+	GetHandleVerifier [0x0x7ff7fbfc516f+215567]
+	GetHandleVerifier [0x0x7ff7fbfac974+115220]
+	GetHandleVerifier [0x0x7ff7fbfacb29+115657]
+	GetHandleVerifier [0x0x7ff7fbf93268+11016]
+	BaseThreadInitThunk [0x0x7ffdc0c4e8d7+23]
+	RtlUserThreadStart [0x0x7ffdc1ffc34c+44]
+
+2025-08-29 14:50:30,092 - INFO - ============================================================
+2025-08-29 14:50:31,907 - INFO - Logging in to LinkedIn...
+2025-08-29 14:50:45,545 - INFO - Successfully logged in to LinkedIn
+2025-08-29 14:50:48,884 - INFO - Creating LinkedIn post...
+2025-08-29 14:50:48,885 - INFO - Cleaned content: Ready for a peek behind the product management curtain?  This Friday afternoon, join me for a virtua...
+2025-08-29 14:51:28,442 - INFO - Post created successfully!
+2025-08-29 14:51:28,451 - INFO - --------------------------------------------------
+2025-08-31 20:13:35,189 - INFO - ============================================================
+2025-08-31 20:13:38,553 - INFO - Logging in to LinkedIn...
+2025-08-31 20:13:58,600 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:16:10,988 - INFO - ============================================================
+2025-08-31 20:16:12,896 - INFO - Logging in to LinkedIn...
+2025-08-31 20:16:31,239 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:17:01,441 - INFO - ============================================================
+2025-08-31 20:17:02,906 - INFO - Logging in to LinkedIn...
+2025-08-31 20:17:20,282 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:17:34,968 - INFO - ============================================================
+2025-08-31 20:17:36,484 - INFO - Logging in to LinkedIn...
+2025-08-31 20:17:53,271 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:18:02,262 - INFO - ============================================================
+2025-08-31 20:18:03,682 - INFO - Logging in to LinkedIn...
+2025-08-31 20:18:17,840 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:18:49,731 - INFO - ============================================================
+2025-08-31 20:18:51,078 - INFO - Logging in to LinkedIn...
+2025-08-31 20:19:07,456 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:19:35,763 - INFO - ============================================================
+2025-08-31 20:19:37,073 - INFO - Logging in to LinkedIn...
+2025-08-31 20:19:54,075 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79eda3d85+79397]
+	GetHandleVerifier [0x0x7ff79eda3de0+79488]
+	(No symbol) [0x0x7ff79eb4c0fa]
+	(No symbol) [0x0x7ff79eba2fd6]
+	(No symbol) [0x0x7ff79eba328c]
+	(No symbol) [0x0x7ff79ebf6537]
+	(No symbol) [0x0x7ff79ebcb1df]
+	(No symbol) [0x0x7ff79ebf3344]
+	(No symbol) [0x0x7ff79ebcaf73]
+	(No symbol) [0x0x7ff79eb941b1]
+	(No symbol) [0x0x7ff79eb94f43]
+	GetHandleVerifier [0x0x7ff79f06e1ed+3005069]
+	GetHandleVerifier [0x0x7ff79f06831d+2980797]
+	GetHandleVerifier [0x0x7ff79f087e0d+3110573]
+	GetHandleVerifier [0x0x7ff79edbd6de+184190]
+	GetHandleVerifier [0x0x7ff79edc516f+215567]
+	GetHandleVerifier [0x0x7ff79edac974+115220]
+	GetHandleVerifier [0x0x7ff79edacb29+115657]
+	GetHandleVerifier [0x0x7ff79ed93268+11016]
+	BaseThreadInitThunk [0x0x7ff9df1de8d7+23]
+	RtlUserThreadStart [0x0x7ff9dff08d9c+44]
+
+2025-08-31 20:20:13,131 - INFO - ============================================================
+2025-08-31 20:20:14,566 - INFO - Logging in to LinkedIn...
+2025-08-31 20:20:34,680 - INFO - Successfully logged in to LinkedIn
+2025-08-31 20:20:45,456 - INFO - ============================================================
+2025-08-31 20:20:46,902 - INFO - Logging in to LinkedIn...
+2025-08-31 20:20:57,183 - INFO - Successfully logged in to LinkedIn
+2025-08-31 20:21:28,897 - INFO - ============================================================
+2025-08-31 20:21:30,937 - INFO - Logging in to LinkedIn...
+2025-08-31 20:21:49,757 - INFO - Successfully logged in to LinkedIn
+2025-08-31 20:21:54,130 - INFO - Creating LinkedIn post...
+2025-08-31 20:21:54,133 - INFO - Cleaned content: As Sunday evening winds down, let's talk about the heartbeat of tech: digital transformation.  Embra...
+2025-08-31 20:22:34,899 - INFO - Post created successfully!
+2025-08-31 20:22:34,989 - INFO - --------------------------------------------------
+2025-08-31 20:22:40,823 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-08-31 20:22:50,507 - INFO - Found 8 connect buttons for 'entrepreneur'
+2025-08-31 20:24:05,740 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-08-31 20:24:15,442 - WARNING - No connect buttons found for 'VP engineering' on page 1
+2025-08-31 20:24:25,645 - WARNING - No connect buttons found for 'director technology' on page 1
+2025-08-31 20:24:35,554 - WARNING - No connect buttons found for 'chief technology officer' on page 1
+2025-08-31 20:24:44,970 - WARNING - No connect buttons found for 'machine learning engineer' on page 1
+2025-08-31 20:24:54,135 - WARNING - No connect buttons found for 'AI researcher' on page 1
+2025-08-31 20:25:03,780 - WARNING - No connect buttons found for 'data scientist' on page 1
+2025-08-31 20:25:13,241 - WARNING - No connect buttons found for 'ML engineer' on page 1
+2025-08-31 20:25:23,846 - WARNING - No connect buttons found for 'generative AI' on page 1
+2025-08-31 20:25:33,827 - WARNING - No connect buttons found for 'ChatGPT' on page 1
+2025-08-31 20:25:43,830 - WARNING - No connect buttons found for 'LLM engineer' on page 1
+2025-08-31 20:25:53,717 - WARNING - No connect buttons found for 'AI product manager' on page 1
+2025-08-31 20:26:03,537 - WARNING - No connect buttons found for 'Anthropic' on page 1
+2025-08-31 20:26:12,586 - WARNING - No connect buttons found for 'Claude AI' on page 1
+2025-08-31 20:26:22,900 - WARNING - No connect buttons found for 'AI safety researcher' on page 1
+2025-08-31 20:26:32,395 - WARNING - No connect buttons found for 'responsible AI' on page 1
+2025-08-31 20:26:41,822 - WARNING - No connect buttons found for 'software engineer' on page 1
+2025-08-31 20:26:51,371 - WARNING - No connect buttons found for 'full stack developer' on page 1
+2025-08-31 20:27:01,011 - WARNING - No connect buttons found for 'DevOps engineer' on page 1
+2025-08-31 20:27:10,273 - WARNING - No connect buttons found for 'cloud architect' on page 1
+2025-08-31 20:27:19,983 - WARNING - No connect buttons found for 'product manager' on page 1
+2025-08-31 23:53:31,099 - INFO - 
+============================================================
+2025-08-31 23:53:31,115 - INFO - ============================================================
+2025-08-31 23:53:31,159 - INFO - ============================================================
+2025-09-02 11:57:59,808 - INFO - ============================================================
+2025-09-02 11:58:04,393 - INFO - Logging in to LinkedIn...
+2025-09-02 11:58:15,577 - ERROR - Login failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c25c3d85+79397]
+	GetHandleVerifier [0x0x7ff7c25c3de0+79488]
+	(No symbol) [0x0x7ff7c236c0fa]
+	(No symbol) [0x0x7ff7c2358355]
+	(No symbol) [0x0x7ff7c237ceee]
+	(No symbol) [0x0x7ff7c23f27c5]
+	(No symbol) [0x0x7ff7c2412c72]
+	(No symbol) [0x0x7ff7c23eaf73]
+	(No symbol) [0x0x7ff7c23b41b1]
+	(No symbol) [0x0x7ff7c23b4f43]
+	GetHandleVerifier [0x0x7ff7c288e1ed+3005069]
+	GetHandleVerifier [0x0x7ff7c288831d+2980797]
+	GetHandleVerifier [0x0x7ff7c28a7e0d+3110573]
+	GetHandleVerifier [0x0x7ff7c25dd6de+184190]
+	GetHandleVerifier [0x0x7ff7c25e516f+215567]
+	GetHandleVerifier [0x0x7ff7c25cc974+115220]
+	GetHandleVerifier [0x0x7ff7c25ccb29+115657]
+	GetHandleVerifier [0x0x7ff7c25b3268+11016]
+	BaseThreadInitThunk [0x0x7ffa1bfae8d7+23]
+	RtlUserThreadStart [0x0x7ffa1d708d9c+44]
+
+2025-09-02 11:58:33,324 - INFO - ============================================================
+2025-09-02 11:58:34,566 - INFO - Logging in to LinkedIn...
+2025-09-02 11:58:40,676 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c25c3d85+79397]
+	GetHandleVerifier [0x0x7ff7c25c3de0+79488]
+	(No symbol) [0x0x7ff7c236c0fa]
+	(No symbol) [0x0x7ff7c2344601]
+	(No symbol) [0x0x7ff7c23f257e]
+	(No symbol) [0x0x7ff7c2412c72]
+	(No symbol) [0x0x7ff7c23eaf73]
+	(No symbol) [0x0x7ff7c23b41b1]
+	(No symbol) [0x0x7ff7c23b4f43]
+	GetHandleVerifier [0x0x7ff7c288e1ed+3005069]
+	GetHandleVerifier [0x0x7ff7c288831d+2980797]
+	GetHandleVerifier [0x0x7ff7c28a7e0d+3110573]
+	GetHandleVerifier [0x0x7ff7c25dd6de+184190]
+	GetHandleVerifier [0x0x7ff7c25e516f+215567]
+	GetHandleVerifier [0x0x7ff7c25cc974+115220]
+	GetHandleVerifier [0x0x7ff7c25ccb29+115657]
+	GetHandleVerifier [0x0x7ff7c25b3268+11016]
+	BaseThreadInitThunk [0x0x7ffa1bfae8d7+23]
+	RtlUserThreadStart [0x0x7ffa1d708d9c+44]
+
+2025-09-02 12:14:39,036 - INFO - ============================================================
+2025-09-02 12:14:40,712 - INFO - Logging in to LinkedIn...
+2025-09-02 12:14:50,937 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.155)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff724513d85+79397]
+	GetHandleVerifier [0x0x7ff724513de0+79488]
+	(No symbol) [0x0x7ff7242bc0fa]
+	(No symbol) [0x0x7ff724294601]
+	(No symbol) [0x0x7ff72434257e]
+	(No symbol) [0x0x7ff724362c72]
+	(No symbol) [0x0x7ff72433af73]
+	(No symbol) [0x0x7ff7243041b1]
+	(No symbol) [0x0x7ff724304f43]
+	GetHandleVerifier [0x0x7ff7247de1ed+3005069]
+	GetHandleVerifier [0x0x7ff7247d831d+2980797]
+	GetHandleVerifier [0x0x7ff7247f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff72452d6de+184190]
+	GetHandleVerifier [0x0x7ff72453516f+215567]
+	GetHandleVerifier [0x0x7ff72451c974+115220]
+	GetHandleVerifier [0x0x7ff72451cb29+115657]
+	GetHandleVerifier [0x0x7ff724503268+11016]
+	BaseThreadInitThunk [0x0x7ffa1bfae8d7+23]
+	RtlUserThreadStart [0x0x7ffa1d708d9c+44]
+
+2025-09-02 12:29:36,235 - INFO - ============================================================
+2025-09-02 12:29:37,817 - INFO - Logging in to LinkedIn...
+2025-09-02 12:29:49,087 - INFO - Successfully logged in to LinkedIn
+2025-09-02 12:29:53,117 - INFO - Creating LinkedIn post...
+2025-09-02 12:29:53,118 - INFO - Cleaned content: Hey tech trailblazers! This Tuesday afternoon, let's dive into the future of innovation in tech.  My...
+2025-09-02 12:30:20,833 - INFO - Post created successfully!
+2025-09-02 12:30:20,865 - INFO - --------------------------------------------------
+2025-09-02 12:30:26,184 - INFO - Found 8 connect buttons for 'startup founder'
+2025-09-02 12:31:49,749 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-09-02 12:31:59,028 - WARNING - No connect buttons found for 'VP engineering' on page 1
+2025-09-02 12:32:07,520 - INFO - 
+============================================================
+2025-09-02 12:32:07,524 - INFO - ============================================================
+2025-09-02 12:32:07,539 - INFO - ============================================================
+2025-09-06 17:33:11,161 - INFO - ============================================================
+2025-09-06 17:33:14,490 - INFO - Logging in to LinkedIn...
+2025-09-06 17:33:28,328 - INFO - Successfully logged in to LinkedIn
+2025-09-06 17:33:32,229 - INFO - Creating LinkedIn post...
+2025-09-06 17:33:32,230 - INFO - Cleaned content: Behind-the-Scenes Leadership Insight 
+
+As I wind down this Saturday evening, reflecting on leadershi...
+2025-09-06 17:34:01,231 - INFO - Post created successfully!
+2025-09-06 17:34:01,253 - INFO - --------------------------------------------------
+2025-09-06 17:34:06,467 - INFO - Found 9 connect buttons for 'startup founder'
+2025-09-06 17:34:32,775 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7b9eae5fb814d2248fae4cb0783500e1
+2025-09-12 19:14:16,665 - INFO - ============================================================
+2025-09-12 19:14:19,659 - INFO - Logging in to LinkedIn...
+2025-09-12 19:14:34,310 - INFO - Successfully logged in to LinkedIn
+2025-09-12 19:14:35,102 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-12 19:14:35,113 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-12 19:14:35,155 - INFO - Creating LinkedIn post...
+2025-09-12 19:14:35,165 - INFO - Cleaned content: Spent the weekend exploring data science and I'm convinced it's going to revolutionize decision maki...
+2025-09-12 19:15:01,774 - INFO - Post created successfully!
+2025-09-12 19:15:01,785 - INFO - --------------------------------------------------
+2025-09-12 19:15:07,648 - INFO - Found 4 connect buttons for 'startup founder'
+2025-09-12 19:15:52,694 - INFO - 
+============================================================
+2025-09-12 19:15:52,696 - INFO - ============================================================
+2025-09-12 19:15:52,724 - INFO - ============================================================
+2025-09-14 10:40:10,980 - INFO - ============================================================
+2025-09-14 10:40:13,883 - INFO - Logging in to LinkedIn...
+2025-09-14 10:40:23,896 - INFO - Successfully logged in to LinkedIn
+2025-09-14 10:40:24,618 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-14 10:40:24,618 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-14 10:40:24,647 - INFO - Creating LinkedIn post...
+2025-09-14 10:40:24,648 - INFO - Cleaned content: Spent the weekend exploring cloud architecture and I'm convinced it's going to revolutionize product...
+2025-09-14 10:40:24,745 - ERROR - Post creation failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff65eac3d85+79397]
+	GetHandleVerifier [0x0x7ff65eac3de0+79488]
+	(No symbol) [0x0x7ff65e86c0fa]
+	(No symbol) [0x0x7ff65e858355]
+	(No symbol) [0x0x7ff65e87ceee]
+	(No symbol) [0x0x7ff65e8f27c5]
+	(No symbol) [0x0x7ff65e912c72]
+	(No symbol) [0x0x7ff65e8eaf73]
+	(No symbol) [0x0x7ff65e8b41b1]
+	(No symbol) [0x0x7ff65e8b4f43]
+	GetHandleVerifier [0x0x7ff65ed8e1ed+3005069]
+	GetHandleVerifier [0x0x7ff65ed8831d+2980797]
+	GetHandleVerifier [0x0x7ff65eda7e0d+3110573]
+	GetHandleVerifier [0x0x7ff65eadd6de+184190]
+	GetHandleVerifier [0x0x7ff65eae516f+215567]
+	GetHandleVerifier [0x0x7ff65eacc974+115220]
+	GetHandleVerifier [0x0x7ff65eaccb29+115657]
+	GetHandleVerifier [0x0x7ff65eab3268+11016]
+	BaseThreadInitThunk [0x0x7fffbfd3e8d7+23]
+	RtlUserThreadStart [0x0x7fffc18c8d9c+44]
+
+2025-09-14 10:40:24,968 - INFO - --------------------------------------------------
+2025-09-14 10:40:25,898 - INFO - 
+============================================================
+2025-09-14 10:40:25,904 - INFO - ============================================================
+2025-09-14 10:40:25,923 - INFO - ============================================================
+2025-09-14 12:26:43,889 - INFO - ============================================================
+2025-09-14 12:26:56,237 - INFO - Logging in to LinkedIn...
+2025-09-14 12:27:08,955 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff74bdf3d85+79397]
+	GetHandleVerifier [0x0x7ff74bdf3de0+79488]
+	(No symbol) [0x0x7ff74bb9c0fa]
+	(No symbol) [0x0x7ff74bb74601]
+	(No symbol) [0x0x7ff74bc2257e]
+	(No symbol) [0x0x7ff74bc42c72]
+	(No symbol) [0x0x7ff74bc1af73]
+	(No symbol) [0x0x7ff74bbe41b1]
+	(No symbol) [0x0x7ff74bbe4f43]
+	GetHandleVerifier [0x0x7ff74c0be1ed+3005069]
+	GetHandleVerifier [0x0x7ff74c0b831d+2980797]
+	GetHandleVerifier [0x0x7ff74c0d7e0d+3110573]
+	GetHandleVerifier [0x0x7ff74be0d6de+184190]
+	GetHandleVerifier [0x0x7ff74be1516f+215567]
+	GetHandleVerifier [0x0x7ff74bdfc974+115220]
+	GetHandleVerifier [0x0x7ff74bdfcb29+115657]
+	GetHandleVerifier [0x0x7ff74bde3268+11016]
+	BaseThreadInitThunk [0x0x7fffbfd3e8d7+23]
+	RtlUserThreadStart [0x0x7fffc18c8d9c+44]
+
+2025-09-14 12:27:49,755 - INFO - ============================================================
+2025-09-14 12:27:52,368 - INFO - Logging in to LinkedIn...
+2025-09-14 12:28:19,348 - INFO - Successfully logged in to LinkedIn
+2025-09-14 12:28:21,833 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-14 12:28:21,854 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-14 12:28:21,907 - INFO - Creating LinkedIn post...
+2025-09-14 12:28:21,907 - INFO - Cleaned content: Been diving deep into AI automation lately. The potential applications in decision making are mind-b...
+2025-09-14 12:28:52,668 - INFO - Post created successfully!
+2025-09-14 12:28:52,681 - INFO - --------------------------------------------------
+2025-09-14 12:29:02,419 - INFO - Found 6 connect buttons for 'startup founder'
+2025-09-14 12:29:55,522 - INFO - 
+============================================================
+2025-09-14 12:29:55,525 - INFO - ============================================================
+2025-09-14 12:29:55,549 - INFO - ============================================================
+2025-09-19 22:18:42,615 - INFO - ============================================================
+2025-09-19 22:18:52,859 - INFO - Logging in to LinkedIn...
+2025-09-19 22:19:13,368 - INFO - Successfully logged in to LinkedIn
+2025-09-19 22:19:14,332 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-19 22:19:14,334 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-19 22:19:14,484 - INFO - Creating LinkedIn post...
+2025-09-19 22:19:14,487 - INFO - Cleaned content: Hot take: data science isn't just a trend - it's fundamentally changing how we approach product deve...
+2025-09-19 22:19:57,548 - INFO - Post created successfully!
+2025-09-19 22:19:57,563 - INFO - --------------------------------------------------
+2025-09-19 22:20:07,708 - INFO - Found 5 connect buttons for 'startup founder'
+2025-09-19 22:21:03,864 - INFO - 
+============================================================
+2025-09-19 22:21:03,866 - INFO - ============================================================
+2025-09-19 22:21:03,870 - INFO - ============================================================
+2025-09-19 22:27:15,649 - INFO - ============================================================
+2025-09-19 22:27:18,140 - INFO - Logging in to LinkedIn...
+2025-09-19 22:27:38,201 - INFO - Successfully logged in to LinkedIn
+2025-09-19 22:27:38,981 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-19 22:27:38,983 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-19 22:27:39,037 - INFO - Creating LinkedIn post...
+2025-09-19 22:27:39,042 - INFO - Cleaned content: Just had a fascinating conversation about AI automation. The way it's reshaping decision making is i...
+2025-09-19 22:28:09,006 - INFO - Post created successfully!
+2025-09-19 22:28:09,066 - INFO - --------------------------------------------------
+2025-09-19 22:28:20,173 - INFO - Found 1 connect buttons for 'startup founder'
+2025-09-19 22:28:43,291 - INFO - Found 8 connect buttons for 'entrepreneur'
+2025-09-19 22:29:15,203 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/add9110fc36a4c63e7ff3a6580f5f9e7
+2025-09-19 22:54:17,789 - INFO - ============================================================
+2025-09-19 22:54:20,559 - INFO - Logging in to LinkedIn...
+2025-09-19 22:54:38,589 - INFO - Successfully logged in to LinkedIn
+2025-09-19 22:54:39,479 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-19 22:54:39,480 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-19 22:54:39,507 - INFO - Creating LinkedIn post...
+2025-09-19 22:54:39,508 - INFO - Cleaned content: Been diving deep into data science lately. The potential applications in customer experience are min...
+2025-09-19 22:55:09,116 - INFO - Post created successfully!
+2025-09-19 22:55:09,127 - INFO - --------------------------------------------------
+2025-09-19 22:55:16,204 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-09-19 22:55:23,894 - INFO - Found 6 connect buttons for 'entrepreneur'
+2025-09-19 22:56:47,021 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ae6e57d4831d954f919055c0659b3d8b
+2025-09-19 23:01:53,042 - INFO - ============================================================
+2025-09-19 23:01:55,153 - INFO - Logging in to LinkedIn...
+2025-09-19 23:02:06,060 - INFO - Successfully logged in to LinkedIn
+2025-09-19 23:02:06,780 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-19 23:02:06,782 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-19 23:02:06,819 - INFO - Creating LinkedIn post...
+2025-09-19 23:02:06,820 - INFO - Cleaned content: Spent the weekend exploring data science and I'm convinced it's going to revolutionize product devel...
+2025-09-19 23:02:33,434 - INFO - Post created successfully!
+2025-09-19 23:02:33,441 - INFO - --------------------------------------------------
+2025-09-19 23:02:41,063 - INFO - Found 1 connect buttons for 'startup founder'
+2025-09-19 23:03:06,179 - WARNING - No connect buttons found for 'entrepreneur' on page 1
+2025-09-19 23:03:14,226 - INFO - Found 7 connect buttons for 'startup CEO'
+2025-09-19 23:03:29,959 - INFO - 
+============================================================
+2025-09-19 23:03:29,960 - INFO - ============================================================
+2025-09-19 23:03:29,964 - INFO - ============================================================
+2025-09-24 10:26:47,905 - INFO - ============================================================
+2025-09-24 10:26:52,203 - INFO - Logging in to LinkedIn...
+2025-09-24 10:26:59,133 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bd731eb5+80197]
+	GetHandleVerifier [0x0x7ff7bd731f10+80288]
+	(No symbol) [0x0x7ff7bd4b02fa]
+	(No symbol) [0x0x7ff7bd4882a1]
+	(No symbol) [0x0x7ff7bd53799e]
+	(No symbol) [0x0x7ff7bd558132]
+	(No symbol) [0x0x7ff7bd530153]
+	(No symbol) [0x0x7ff7bd4f8b02]
+	(No symbol) [0x0x7ff7bd4f98d3]
+	GetHandleVerifier [0x0x7ff7bd9ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7bd9e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7bda086c7+3055959]
+	GetHandleVerifier [0x0x7ff7bd74cfee+191102]
+	GetHandleVerifier [0x0x7ff7bd7550af+224063]
+	GetHandleVerifier [0x0x7ff7bd73af64+117236]
+	GetHandleVerifier [0x0x7ff7bd73b119+117673]
+	GetHandleVerifier [0x0x7ff7bd7210a8+11064]
+	BaseThreadInitThunk [0x0x7ffc9f79e8d7+23]
+	RtlUserThreadStart [0x0x7ffca08a8d9c+44]
+
+2025-09-24 10:27:05,396 - INFO - ============================================================
+2025-09-24 10:27:07,248 - INFO - Logging in to LinkedIn...
+2025-09-24 10:27:24,436 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bd731eb5+80197]
+	GetHandleVerifier [0x0x7ff7bd731f10+80288]
+	(No symbol) [0x0x7ff7bd4b02fa]
+	(No symbol) [0x0x7ff7bd507cd7]
+	(No symbol) [0x0x7ff7bd507f9c]
+	(No symbol) [0x0x7ff7bd55ba87]
+	(No symbol) [0x0x7ff7bd5303bf]
+	(No symbol) [0x0x7ff7bd5587fb]
+	(No symbol) [0x0x7ff7bd530153]
+	(No symbol) [0x0x7ff7bd4f8b02]
+	(No symbol) [0x0x7ff7bd4f98d3]
+	GetHandleVerifier [0x0x7ff7bd9ee83d+2949837]
+	GetHandleVerifier [0x0x7ff7bd9e8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7bda086c7+3055959]
+	GetHandleVerifier [0x0x7ff7bd74cfee+191102]
+	GetHandleVerifier [0x0x7ff7bd7550af+224063]
+	GetHandleVerifier [0x0x7ff7bd73af64+117236]
+	GetHandleVerifier [0x0x7ff7bd73b119+117673]
+	GetHandleVerifier [0x0x7ff7bd7210a8+11064]
+	BaseThreadInitThunk [0x0x7ffc9f79e8d7+23]
+	RtlUserThreadStart [0x0x7ffca08a8d9c+44]
+
+2025-09-24 10:28:44,695 - INFO - ============================================================
+2025-09-24 10:28:47,637 - INFO - Logging in to LinkedIn...
+2025-09-24 10:29:11,834 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff769421eb5+80197]
+	GetHandleVerifier [0x0x7ff769421f10+80288]
+	(No symbol) [0x0x7ff7691a02fa]
+	(No symbol) [0x0x7ff7691f7cd7]
+	(No symbol) [0x0x7ff7691f7f9c]
+	(No symbol) [0x0x7ff76924ba87]
+	(No symbol) [0x0x7ff7692203bf]
+	(No symbol) [0x0x7ff7692487fb]
+	(No symbol) [0x0x7ff769220153]
+	(No symbol) [0x0x7ff7691e8b02]
+	(No symbol) [0x0x7ff7691e98d3]
+	GetHandleVerifier [0x0x7ff7696de83d+2949837]
+	GetHandleVerifier [0x0x7ff7696d8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7696f86c7+3055959]
+	GetHandleVerifier [0x0x7ff76943cfee+191102]
+	GetHandleVerifier [0x0x7ff7694450af+224063]
+	GetHandleVerifier [0x0x7ff76942af64+117236]
+	GetHandleVerifier [0x0x7ff76942b119+117673]
+	GetHandleVerifier [0x0x7ff7694110a8+11064]
+	BaseThreadInitThunk [0x0x7ffc9f79e8d7+23]
+	RtlUserThreadStart [0x0x7ffca08a8d9c+44]
+
+2025-09-24 10:32:42,203 - INFO - ============================================================
+2025-09-24 10:33:50,250 - INFO - Logging in to LinkedIn...
+2025-09-24 10:33:50,761 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff667b31eb5+80197]
+	GetHandleVerifier [0x0x7ff667b31f10+80288]
+	(No symbol) [0x0x7ff6678b02fa]
+	(No symbol) [0x0x7ff6678882a1]
+	(No symbol) [0x0x7ff66793799e]
+	(No symbol) [0x0x7ff667958132]
+	(No symbol) [0x0x7ff667930153]
+	(No symbol) [0x0x7ff6678f8b02]
+	(No symbol) [0x0x7ff6678f98d3]
+	GetHandleVerifier [0x0x7ff667dee83d+2949837]
+	GetHandleVerifier [0x0x7ff667de8c6a+2926330]
+	GetHandleVerifier [0x0x7ff667e086c7+3055959]
+	GetHandleVerifier [0x0x7ff667b4cfee+191102]
+	GetHandleVerifier [0x0x7ff667b550af+224063]
+	GetHandleVerifier [0x0x7ff667b3af64+117236]
+	GetHandleVerifier [0x0x7ff667b3b119+117673]
+	GetHandleVerifier [0x0x7ff667b210a8+11064]
+	BaseThreadInitThunk [0x0x7ffc9f79e8d7+23]
+	RtlUserThreadStart [0x0x7ffca08a8d9c+44]
+
+2025-09-24 10:48:35,467 - INFO - ============================================================
+2025-09-24 10:48:37,756 - INFO - Logging in to LinkedIn...
+2025-09-24 10:48:50,956 - INFO - Successfully logged in to LinkedIn
+2025-09-24 10:48:51,705 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-24 10:48:51,706 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-24 10:48:51,717 - INFO - Creating LinkedIn post...
+2025-09-24 10:48:51,719 - INFO - Cleaned content: Hot take: cloud architecture isn't just a trend - it's fundamentally changing how we approach custom...
+2025-09-24 10:49:12,330 - INFO - Post created successfully!
+2025-09-24 10:49:12,349 - INFO - --------------------------------------------------
+2025-09-24 10:49:16,488 - INFO - 
+============================================================
+2025-09-24 10:49:16,490 - INFO - ============================================================
+2025-09-24 10:49:16,496 - INFO - ============================================================
+2025-09-24 12:39:55,294 - INFO - ============================================================
+2025-09-24 12:40:11,261 - INFO - Logging in to LinkedIn...
+2025-09-24 12:40:31,176 - ERROR - Login failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f72d1eb5+80197]
+	GetHandleVerifier [0x0x7ff6f72d1f10+80288]
+	(No symbol) [0x0x7ff6f70502fa]
+	(No symbol) [0x0x7ff6f70a7cd7]
+	(No symbol) [0x0x7ff6f70a7f9c]
+	(No symbol) [0x0x7ff6f70fba87]
+	(No symbol) [0x0x7ff6f70d03bf]
+	(No symbol) [0x0x7ff6f70f87fb]
+	(No symbol) [0x0x7ff6f70d0153]
+	(No symbol) [0x0x7ff6f7098b02]
+	(No symbol) [0x0x7ff6f70998d3]
+	GetHandleVerifier [0x0x7ff6f758e83d+2949837]
+	GetHandleVerifier [0x0x7ff6f7588c6a+2926330]
+	GetHandleVerifier [0x0x7ff6f75a86c7+3055959]
+	GetHandleVerifier [0x0x7ff6f72ecfee+191102]
+	GetHandleVerifier [0x0x7ff6f72f50af+224063]
+	GetHandleVerifier [0x0x7ff6f72daf64+117236]
+	GetHandleVerifier [0x0x7ff6f72db119+117673]
+	GetHandleVerifier [0x0x7ff6f72c10a8+11064]
+	BaseThreadInitThunk [0x0x7ffa52c7e8d7+23]
+	RtlUserThreadStart [0x0x7ffa544a8d9c+44]
+
+2025-09-24 12:40:49,753 - INFO - ============================================================
+2025-09-24 12:40:51,305 - INFO - Logging in to LinkedIn...
+2025-09-24 12:41:40,254 - INFO - Successfully logged in to LinkedIn
+2025-09-24 12:41:41,169 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-24 12:41:41,170 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-24 12:41:41,202 - INFO - Creating LinkedIn post...
+2025-09-24 12:41:41,203 - INFO - Cleaned content: Just had a fascinating conversation about generative AI. The way it's reshaping product development ...
+2025-09-24 12:42:07,512 - INFO - Post created successfully!
+2025-09-24 12:42:07,540 - INFO - --------------------------------------------------
+2025-09-24 12:42:13,660 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-09-24 12:42:19,508 - INFO - Found 10 connect buttons for 'entrepreneur'
+2025-09-24 12:43:43,959 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-09-24 12:43:52,239 - INFO - Found 1 connect buttons for 'VP engineering'
+2025-09-24 12:44:07,950 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/841670542c53d7dfe7c48d804a9d57a2
+2025-09-29 14:39:53,074 - INFO - ============================================================
+2025-09-29 14:39:58,828 - INFO - Logging in to LinkedIn...
+2025-09-29 14:40:16,256 - INFO - Successfully logged in to LinkedIn
+2025-09-29 14:40:16,975 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-09-29 14:40:16,977 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-09-29 14:40:16,993 - INFO - Creating LinkedIn post...
+2025-09-29 14:40:16,993 - INFO - Cleaned content: Hot take: AI automation isn't just a trend - it's fundamentally changing how we approach decision ma...
+2025-09-29 14:40:29,674 - ERROR - Post creation failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70a5e1eb5+80197]
+	GetHandleVerifier [0x0x7ff70a5e1f10+80288]
+	(No symbol) [0x0x7ff70a3602fa]
+	(No symbol) [0x0x7ff70a34c0a5]
+	(No symbol) [0x0x7ff70a37144a]
+	(No symbol) [0x0x7ff70a3e7be6]
+	(No symbol) [0x0x7ff70a408132]
+	(No symbol) [0x0x7ff70a3e0153]
+	(No symbol) [0x0x7ff70a3a8b02]
+	(No symbol) [0x0x7ff70a3a98d3]
+	GetHandleVerifier [0x0x7ff70a89e83d+2949837]
+	GetHandleVerifier [0x0x7ff70a898c6a+2926330]
+	GetHandleVerifier [0x0x7ff70a8b86c7+3055959]
+	GetHandleVerifier [0x0x7ff70a5fcfee+191102]
+	GetHandleVerifier [0x0x7ff70a6050af+224063]
+	GetHandleVerifier [0x0x7ff70a5eaf64+117236]
+	GetHandleVerifier [0x0x7ff70a5eb119+117673]
+	GetHandleVerifier [0x0x7ff70a5d10a8+11064]
+	BaseThreadInitThunk [0x0x7ff9a918e8d7+23]
+	RtlUserThreadStart [0x0x7ff9a9f88d9c+44]
+
+2025-09-29 14:40:29,852 - INFO - --------------------------------------------------
+2025-09-29 14:40:30,656 - INFO - 
+============================================================
+2025-09-29 14:40:30,659 - INFO - ============================================================
+2025-09-29 14:40:30,671 - INFO - ============================================================
+2025-10-12 19:49:41,774 - INFO - ============================================================
+2025-10-12 19:49:51,736 - INFO - Logging in to LinkedIn...
+2025-10-12 19:50:16,646 - INFO - Successfully logged in to LinkedIn
+2025-10-12 19:50:18,456 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-10-12 19:50:18,465 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-10-12 19:50:18,508 - INFO - Creating LinkedIn post...
+2025-10-12 19:50:18,512 - INFO - Cleaned content: Been diving deep into cloud architecture lately. The potential applications in business operations a...
+2025-10-12 19:50:50,292 - INFO - Post created successfully!
+2025-10-12 19:50:50,301 - INFO - --------------------------------------------------
+2025-10-12 19:50:56,517 - INFO - Found 5 connect buttons for 'startup founder'
+2025-10-12 19:51:21,778 - INFO - 
+============================================================
+2025-10-12 19:51:21,781 - INFO - ============================================================
+2025-10-12 19:51:21,798 - INFO - ============================================================
+2025-11-17 11:23:00,160 - INFO - ============================================================
+2025-11-17 11:23:43,462 - INFO - Logging in to LinkedIn...
+2025-11-17 11:24:03,396 - INFO - Successfully logged in to LinkedIn
+2025-11-17 11:24:04,778 - INFO - error_code=invalid_api_key error_message='Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2025-11-17 11:24:04,783 - ERROR - AI content generation failed: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Jw8A. You can find your API key at https://platform.openai.com/account/api-keys.
+2025-11-17 11:24:04,808 - INFO - Creating LinkedIn post...
+2025-11-17 11:24:04,808 - INFO - Cleaned content: Just had a fascinating conversation about AI automation. The way it's reshaping decision making is i...
+2025-11-17 11:24:30,666 - INFO - Post created successfully!
+2025-11-17 11:24:30,805 - INFO - --------------------------------------------------
+2025-11-17 11:24:39,935 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-11-17 11:24:48,149 - WARNING - No connect buttons found for 'entrepreneur' on page 1
+2025-11-17 11:24:55,826 - WARNING - No connect buttons found for 'startup CEO' on page 1
+2025-11-17 11:25:02,874 - WARNING - No connect buttons found for 'startup CTO' on page 1
+2025-11-17 11:25:09,785 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-11-17 11:25:17,204 - WARNING - No connect buttons found for 'VP engineering' on page 1
+2025-11-17 11:25:18,406 - INFO - 
+============================================================
+2025-11-17 11:25:18,427 - INFO - ============================================================
+2025-11-17 11:25:18,454 - INFO - ============================================================
+2025-11-19 10:47:17,562 - INFO - Logging in to LinkedIn...
+2025-11-19 10:47:33,243 - ERROR - Login failed: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff73026a235
+	0x7ff72ffc2630
+	0x7ff72fd516dd
+	0x7ff72fdaa27e
+	0x7ff72fdaa58c
+	0x7ff72fdfed77
+	0x7ff72fdfbaba
+	0x7ff72fd9b0ed
+	0x7ff72fd9bf63
+	0x7ff730295d60
+	0x7ff73028fe8a
+	0x7ff7302b1005
+	0x7ff72ffdd71e
+	0x7ff72ffe4e1f
+	0x7ff72ffcb7c4
+	0x7ff72ffcb97f
+	0x7ff72ffb18e8
+	0x7ffb9a09e8d7
+	0x7ffb9b5ac53c
+
+2025-11-19 10:48:24,632 - INFO - Logging in to LinkedIn...
+2025-11-19 10:48:35,842 - INFO - Successfully logged in to LinkedIn
+2025-11-19 10:48:46,393 - WARNING - No connect buttons found for 'startup founder' on page 1
+2025-11-19 10:48:56,569 - WARNING - No connect buttons found for 'entrepreneur' on page 1
+2025-11-19 10:49:04,300 - WARNING - No connect buttons found for 'startup CEO' on page 1
+2025-11-19 10:49:10,145 - WARNING - No connect buttons found for 'startup CTO' on page 1
+2025-11-19 10:49:18,041 - WARNING - No connect buttons found for 'enterprise architect' on page 1
+2025-11-19 10:49:25,020 - WARNING - No connect buttons found for 'VP engineering' on page 1
+2025-11-19 10:49:31,062 - WARNING - No connect buttons found for 'director technology' on page 1
+2025-11-19 10:49:38,407 - WARNING - No connect buttons found for 'chief technology officer' on page 1
+2025-11-19 10:49:45,506 - WARNING - No connect buttons found for 'machine learning engineer' on page 1
+2025-11-19 10:49:52,304 - WARNING - No connect buttons found for 'AI researcher' on page 1
+2025-11-19 10:49:59,754 - WARNING - No connect buttons found for 'data scientist' on page 1
+2025-11-19 10:50:06,621 - WARNING - No connect buttons found for 'ML engineer' on page 1
+2025-11-19 10:50:14,211 - WARNING - No connect buttons found for 'generative AI' on page 1
+2025-11-19 10:50:20,033 - WARNING - No connect buttons found for 'ChatGPT' on page 1
+2025-11-19 10:50:27,610 - WARNING - No connect buttons found for 'LLM engineer' on page 1
+2025-11-19 10:50:37,449 - WARNING - No connect buttons found for 'AI product manager' on page 1
+2025-11-19 10:50:46,479 - WARNING - No connect buttons found for 'Anthropic' on page 1
+2025-11-19 10:50:52,076 - WARNING - No connect buttons found for 'Claude AI' on page 1
+2025-11-19 10:51:01,498 - WARNING - No connect buttons found for 'AI safety researcher' on page 1
+2025-11-19 10:51:06,547 - WARNING - No connect buttons found for 'responsible AI' on page 1
+2025-11-19 11:04:11,314 - INFO - Logging in to LinkedIn...
+2025-11-19 11:04:23,187 - INFO - Successfully logged in to LinkedIn
+2025-11-19 11:04:23,188 - INFO - Target: 20 connections across 10 categories
+2025-11-19 11:04:23,189 - INFO - Approx 2 connections per category
+2025-11-19 11:04:23,189 - INFO - Searching category: STARTUP
+2025-11-19 11:04:23,189 - INFO - Keyword: 'startup founder' (targeting 2 connections)
+2025-11-19 11:04:39,510 - WARNING - No search result cards found for 'startup founder' on page 1
+2025-11-19 11:04:39,511 - INFO - Keyword: 'entrepreneur' (targeting 2 connections)
+2025-11-19 11:04:55,229 - WARNING - No search result cards found for 'entrepreneur' on page 1
+2025-11-19 11:04:55,231 - INFO - Keyword: 'startup CEO' (targeting 2 connections)
+2025-11-19 11:05:10,717 - WARNING - No search result cards found for 'startup CEO' on page 1
+2025-11-19 11:05:10,718 - INFO - Keyword: 'startup CTO' (targeting 2 connections)
+2025-11-19 11:05:26,630 - WARNING - No search result cards found for 'startup CTO' on page 1
+2025-11-19 11:05:26,631 - INFO - Searching category: ENTERPRISE
+2025-11-19 11:05:26,631 - INFO - Keyword: 'enterprise architect' (targeting 2 connections)
+2025-11-19 11:05:43,638 - WARNING - No search result cards found for 'enterprise architect' on page 1
+2025-11-19 11:05:43,639 - INFO - Keyword: 'VP engineering' (targeting 2 connections)
+2025-11-19 11:08:24,874 - INFO - Logging in to LinkedIn...
+2025-11-19 11:08:38,027 - INFO - Successfully logged in to LinkedIn
+2025-11-19 11:08:38,028 - INFO - Target: 20 connections across 10 categories
+2025-11-19 11:08:38,028 - INFO - Approx 2 connections per category
+2025-11-19 11:08:38,028 - INFO - Searching category: STARTUP
+2025-11-19 11:08:38,028 - INFO - Keyword: 'startup founder' (targeting 2 connections)
+2025-11-19 11:08:55,302 - WARNING - No search result cards found for 'startup founder' on page 1
+2025-11-19 11:08:55,302 - INFO - Keyword: 'entrepreneur' (targeting 2 connections)
+2025-11-19 11:09:10,561 - WARNING - No search result cards found for 'entrepreneur' on page 1
+2025-11-19 11:09:10,562 - INFO - Keyword: 'startup CEO' (targeting 2 connections)
+2025-11-19 11:09:27,072 - WARNING - No search result cards found for 'startup CEO' on page 1
+2025-11-19 11:09:27,073 - INFO - Keyword: 'startup CTO' (targeting 2 connections)
+2025-11-19 11:09:42,276 - WARNING - No search result cards found for 'startup CTO' on page 1
+2025-11-19 11:09:42,276 - INFO - Searching category: ENTERPRISE
+2025-11-19 11:09:42,276 - INFO - Keyword: 'enterprise architect' (targeting 2 connections)
+2025-11-19 11:09:57,933 - WARNING - No search result cards found for 'enterprise architect' on page 1
+2025-11-19 11:09:57,934 - INFO - Keyword: 'VP engineering' (targeting 2 connections)
+2025-11-19 11:10:13,293 - WARNING - No search result cards found for 'VP engineering' on page 1
+2025-11-19 11:10:13,293 - INFO - Keyword: 'director technology' (targeting 2 connections)
+2025-11-19 11:10:29,355 - WARNING - No search result cards found for 'director technology' on page 1
+2025-11-19 11:10:29,355 - INFO - Keyword: 'chief technology officer' (targeting 2 connections)
+2025-11-19 11:10:45,090 - WARNING - No search result cards found for 'chief technology officer' on page 1
+2025-11-19 11:10:45,090 - INFO - Searching category: AI_ML
+2025-11-19 11:10:45,090 - INFO - Keyword: 'machine learning engineer' (targeting 2 connections)
+2025-11-19 11:11:00,595 - WARNING - No search result cards found for 'machine learning engineer' on page 1
+2025-11-19 11:11:00,595 - INFO - Keyword: 'AI researcher' (targeting 2 connections)
+2025-11-19 11:11:15,981 - WARNING - No search result cards found for 'AI researcher' on page 1
+2025-11-19 11:11:15,981 - INFO - Keyword: 'data scientist' (targeting 2 connections)
+2025-11-19 11:11:31,859 - WARNING - No search result cards found for 'data scientist' on page 1
+2025-11-19 11:11:31,860 - INFO - Keyword: 'ML engineer' (targeting 2 connections)
+2025-11-19 11:11:46,253 - INFO - Logging in to LinkedIn...
+2025-11-19 11:11:56,069 - INFO - Successfully logged in to LinkedIn
+2025-11-19 11:11:56,077 - INFO - Target: 20 connections across 10 categories
+2025-11-19 11:11:56,077 - INFO - Approx 2 connections per category
+2025-11-19 11:11:56,078 - INFO - Searching category: STARTUP
+2025-11-19 11:11:56,078 - INFO - Keyword: 'startup founder' (targeting 2 connections)
+2025-11-19 11:12:12,107 - WARNING - No search result cards found for 'startup founder' on page 1
+2025-11-19 11:12:12,108 - INFO - Keyword: 'entrepreneur' (targeting 2 connections)
+2025-11-19 11:12:26,859 - WARNING - No search result cards found for 'entrepreneur' on page 1
+2025-11-19 11:12:26,859 - INFO - Keyword: 'startup CEO' (targeting 2 connections)
+2025-11-19 11:12:43,559 - INFO - Logging in to LinkedIn...
+2025-11-19 11:12:54,371 - INFO - Successfully logged in to LinkedIn
+2025-11-19 11:12:54,372 - INFO - Target: 20 connections across 10 categories
+2025-11-19 11:12:54,372 - INFO - Approx 2 connections per category
+2025-11-19 11:12:54,372 - INFO - Searching category: STARTUP
+2025-11-19 11:12:54,373 - INFO - Keyword: 'startup founder' (targeting 2 connections)
+2025-11-19 11:13:07,986 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:13:15,049 - WARNING - No search result cards found for 'startup founder' on page 1
+2025-11-19 11:13:15,049 - INFO - Keyword: 'entrepreneur' (targeting 2 connections)
+2025-11-19 11:13:26,884 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:13:33,934 - WARNING - No search result cards found for 'entrepreneur' on page 1
+2025-11-19 11:13:33,934 - INFO - Keyword: 'startup CEO' (targeting 2 connections)
+2025-11-19 11:13:46,239 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:13:53,286 - WARNING - No search result cards found for 'startup CEO' on page 1
+2025-11-19 11:13:53,287 - INFO - Keyword: 'startup CTO' (targeting 2 connections)
+2025-11-19 11:14:05,599 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:14:12,663 - WARNING - No search result cards found for 'startup CTO' on page 1
+2025-11-19 11:14:12,664 - INFO - Searching category: ENTERPRISE
+2025-11-19 11:14:12,664 - INFO - Keyword: 'enterprise architect' (targeting 2 connections)
+2025-11-19 11:14:24,736 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:14:31,789 - WARNING - No search result cards found for 'enterprise architect' on page 1
+2025-11-19 11:14:31,790 - INFO - Keyword: 'VP engineering' (targeting 2 connections)
+2025-11-19 11:14:44,246 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:14:51,300 - WARNING - No search result cards found for 'VP engineering' on page 1
+2025-11-19 11:14:51,300 - INFO - Keyword: 'director technology' (targeting 2 connections)
+2025-11-19 11:15:03,694 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:15:10,751 - WARNING - No search result cards found for 'director technology' on page 1
+2025-11-19 11:15:10,751 - INFO - Keyword: 'chief technology officer' (targeting 2 connections)
+2025-11-19 11:15:23,719 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:15:30,771 - WARNING - No search result cards found for 'chief technology officer' on page 1
+2025-11-19 11:15:30,772 - INFO - Searching category: AI_ML
+2025-11-19 11:15:30,772 - INFO - Keyword: 'machine learning engineer' (targeting 2 connections)
+2025-11-19 11:15:43,029 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:15:50,110 - WARNING - No search result cards found for 'machine learning engineer' on page 1
+2025-11-19 11:15:50,110 - INFO - Keyword: 'AI researcher' (targeting 2 connections)
+2025-11-19 11:16:02,254 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:16:09,310 - WARNING - No search result cards found for 'AI researcher' on page 1
+2025-11-19 11:16:09,311 - INFO - Keyword: 'data scientist' (targeting 2 connections)
+2025-11-19 11:16:21,796 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:16:28,841 - WARNING - No search result cards found for 'data scientist' on page 1
+2025-11-19 11:16:28,842 - INFO - Keyword: 'ML engineer' (targeting 2 connections)
+2025-11-19 11:16:41,465 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:16:48,513 - WARNING - No search result cards found for 'ML engineer' on page 1
+2025-11-19 11:16:48,513 - INFO - Searching category: GEN_AI
+2025-11-19 11:16:48,514 - INFO - Keyword: 'generative AI' (targeting 2 connections)
+2025-11-19 11:16:59,874 - WARNING - Search results loading timeout, continuing anyway...
+2025-11-19 11:17:05,229 - INFO - Logging in to LinkedIn...
+2025-11-19 11:17:19,787 - INFO - Successfully logged in to LinkedIn
+2025-11-19 11:17:19,787 - INFO - Target: 20 connections across 10 categories
+2025-11-19 11:17:19,788 - INFO - Approx 2 connections per category
+2025-11-19 11:17:19,788 - INFO - Searching category: STARTUP
+2025-11-19 11:17:19,788 - INFO - Keyword: 'startup founder' (targeting 2 connections)
+2025-11-19 11:17:32,626 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:17:40,740 - WARNING - No search result cards found for 'startup founder' on page 1
+2025-11-19 11:17:40,740 - INFO - Keyword: 'entrepreneur' (targeting 2 connections)
+2025-11-19 11:17:53,280 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:18:01,412 - WARNING - No search result cards found for 'entrepreneur' on page 1
+2025-11-19 11:18:01,412 - INFO - Keyword: 'startup CEO' (targeting 2 connections)
+2025-11-19 11:18:13,065 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:18:21,160 - WARNING - No search result cards found for 'startup CEO' on page 1
+2025-11-19 11:18:21,161 - INFO - Keyword: 'startup CTO' (targeting 2 connections)
+2025-11-19 11:18:32,745 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:18:40,892 - WARNING - No search result cards found for 'startup CTO' on page 1
+2025-11-19 11:18:40,893 - INFO - Searching category: ENTERPRISE
+2025-11-19 11:18:40,893 - INFO - Keyword: 'enterprise architect' (targeting 2 connections)
+2025-11-19 11:18:52,668 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:19:00,747 - WARNING - No search result cards found for 'enterprise architect' on page 1
+2025-11-19 11:19:00,747 - INFO - Keyword: 'VP engineering' (targeting 2 connections)
+2025-11-19 11:19:13,041 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:19:21,114 - WARNING - No search result cards found for 'VP engineering' on page 1
+2025-11-19 11:19:21,116 - INFO - Keyword: 'director technology' (targeting 2 connections)
+2025-11-19 11:19:33,864 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:19:41,940 - WARNING - No search result cards found for 'director technology' on page 1
+2025-11-19 11:19:41,941 - INFO - Keyword: 'chief technology officer' (targeting 2 connections)
+2025-11-19 11:19:53,623 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:20:01,711 - WARNING - No search result cards found for 'chief technology officer' on page 1
+2025-11-19 11:20:01,712 - INFO - Searching category: AI_ML
+2025-11-19 11:20:01,712 - INFO - Keyword: 'machine learning engineer' (targeting 2 connections)
+2025-11-19 11:20:13,833 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:20:21,909 - WARNING - No search result cards found for 'machine learning engineer' on page 1
+2025-11-19 11:20:21,909 - INFO - Keyword: 'AI researcher' (targeting 2 connections)
+2025-11-19 11:20:33,273 - WARNING - Search results container not found, trying alternative selectors...
+2025-11-19 11:20:41,375 - WARNING - No search result cards found for 'AI researcher' on page 1
+2025-11-19 11:20:41,375 - INFO - Keyword: 'data scientist' (targeting 2 connections)
+2025-11-19 16:01:34,192 - INFO - 127.0.0.1 - - [19/Nov/2025 16:01:34] "[32mPOST /post HTTP/1.1[0m" 302 -
+2025-11-19 16:01:34,205 - INFO - 127.0.0.1 - - [19/Nov/2025 16:01:34] "GET / HTTP/1.1" 200 -
+2025-11-19 16:01:36,727 - INFO - Logging in to LinkedIn...
+2025-11-19 16:01:45,538 - INFO - Successfully logged in to LinkedIn
+2025-11-19 16:01:45,545 - INFO - Creating LinkedIn post...
+2025-11-19 16:01:45,545 - INFO - Cleaned content: Exploring the fascinating world of Automation in marketing. The potential applications are incredibl...
+2025-11-19 16:02:07,309 - INFO - Post created successfully!
+2025-11-19 16:02:29,813 - INFO - 127.0.0.1 - - [19/Nov/2025 16:02:29] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:02:30,249 - INFO - 127.0.0.1 - - [19/Nov/2025 16:02:30] "GET / HTTP/1.1" 200 -
+2025-11-19 16:02:31,969 - INFO - Logging in to LinkedIn...
+2025-11-19 16:02:44,186 - INFO - Successfully logged in to LinkedIn
+2025-11-19 16:03:31,675 - INFO - ====== WebDriver manager ======
+2025-11-19 16:03:31,676 - INFO - 127.0.0.1 - - [19/Nov/2025 16:03:31] "[32mPOST /messaging HTTP/1.1[0m" 302 -
+2025-11-19 16:03:31,714 - INFO - 127.0.0.1 - - [19/Nov/2025 16:03:31] "GET / HTTP/1.1" 200 -
+2025-11-19 16:03:33,900 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:03:34,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:03:34,365 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:03:35,056 - INFO - WebDriver version 142.0.7444.175 selected
+2025-11-19 16:03:35,063 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-19 16:03:35,067 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-19 16:03:35,225 - INFO - Driver downloading response is 200
+2025-11-19 16:03:38,366 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:03:39,662 - INFO - Driver has been saved in cache [C:\Users\rajma\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-11-19 16:04:38,033 - INFO - 127.0.0.1 - - [19/Nov/2025 16:04:38] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:04:38,051 - INFO - 127.0.0.1 - - [19/Nov/2025 16:04:38] "GET / HTTP/1.1" 200 -
+2025-11-19 16:04:53,098 - INFO - 127.0.0.1 - - [19/Nov/2025 16:04:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:05:27,532 - INFO - 127.0.0.1 - - [19/Nov/2025 16:05:27] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:05:27,547 - INFO - 127.0.0.1 - - [19/Nov/2025 16:05:27] "GET / HTTP/1.1" 200 -
+2025-11-19 16:05:27,636 - INFO - 127.0.0.1 - - [19/Nov/2025 16:05:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:28:47,698 - INFO - 127.0.0.1 - - [19/Nov/2025 16:28:47] "GET / HTTP/1.1" 200 -
+2025-11-19 16:28:48,406 - INFO - 127.0.0.1 - - [19/Nov/2025 16:28:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:29:03,581 - INFO - 127.0.0.1 - - [19/Nov/2025 16:29:03] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:29:03,635 - INFO - 127.0.0.1 - - [19/Nov/2025 16:29:03] "GET / HTTP/1.1" 200 -
+2025-11-19 16:29:03,703 - INFO - 127.0.0.1 - - [19/Nov/2025 16:29:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:34:46,576 - INFO - 127.0.0.1 - - [19/Nov/2025 16:34:46] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:34:46,624 - INFO - 127.0.0.1 - - [19/Nov/2025 16:34:46] "GET / HTTP/1.1" 200 -
+2025-11-19 16:34:46,795 - INFO - 127.0.0.1 - - [19/Nov/2025 16:34:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:38:05,079 - INFO - 127.0.0.1 - - [19/Nov/2025 16:38:05] "[32mPOST /connect HTTP/1.1[0m" 302 -
+2025-11-19 16:38:05,120 - INFO - 127.0.0.1 - - [19/Nov/2025 16:38:05] "GET / HTTP/1.1" 200 -
+2025-11-19 16:38:05,230 - INFO - 127.0.0.1 - - [19/Nov/2025 16:38:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-19 16:56:01,608 - INFO - Logging in to LinkedIn...
+2025-11-19 16:56:22,838 - INFO - Successfully logged in to LinkedIn
+2025-11-19 16:56:22,885 - INFO - Creating LinkedIn post...
+2025-11-19 16:56:22,886 - INFO - Cleaned content: Exploring the fascinating world of Automation in tech. The potential applications are incredible! Wh...
+2025-11-19 16:56:45,434 - ERROR - Could not find or click Post button
+2025-11-19 16:57:11,618 - INFO - ✅ Chrome driver setup successfully
+2025-11-19 16:57:11,620 - INFO - 🔐 Logging into LinkedIn...
+2025-11-19 16:57:20,759 - INFO - ✅ Email entered
+2025-11-19 16:57:20,911 - INFO - ✅ Password entered
+2025-11-19 16:57:29,106 - INFO - ✅ Login button clicked
+2025-11-19 16:57:37,167 - INFO - ✅ Login successful!
+2025-11-19 16:58:09,828 - WARNING - No action buttons found for 'AUTOMATION' on page 1
+2025-11-19 16:58:12,428 - INFO - 🔚 Browser closed
+2025-11-19 16:58:17,370 - INFO - ====== WebDriver manager ======
+2025-11-19 16:58:20,717 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:58:20,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-19 16:58:21,006 - INFO - Driver [C:\Users\rajma\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-19 16:59:50,213 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC325A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 16:59:54,299 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC32660>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 16:59:58,403 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC33710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 17:00:06,533 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC33140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 17:00:10,606 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC33500>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 17:00:14,689 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF7530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/elements
+2025-11-19 17:00:22,821 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF5550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/element/f.957B8D1E782539A4FA218611AB833C6B.d.C0C2F8F884E4F45BF2B260634C2992AC.e.97/click
+2025-11-19 17:00:26,915 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CAB0380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/element/f.957B8D1E782539A4FA218611AB833C6B.d.C0C2F8F884E4F45BF2B260634C2992AC.e.97/click
+2025-11-19 17:00:30,997 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD4E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/element/f.957B8D1E782539A4FA218611AB833C6B.d.C0C2F8F884E4F45BF2B260634C2992AC.e.97/click
+2025-11-19 17:00:49,152 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD6DB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:00:53,235 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD4320>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:00:57,316 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC32090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:15,423 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC33F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:19,517 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC320F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:23,605 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC33380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:41,788 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC339E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:45,900 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF51C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:01:49,956 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF7590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:08,131 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD68D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:12,213 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD6F60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:16,305 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBD4560>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:34,483 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF7320>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:38,538 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CBF6570>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:02:42,599 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC32390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:00,768 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5CD70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:04,868 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5FE00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:08,965 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5FBC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:27,138 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5C2F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:31,230 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5EF90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:03:35,310 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002369CC5E7E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af74da50fa3b74557c76b2428195a39f/url
+2025-11-19 17:05:37,628 - INFO - Logging in to LinkedIn...
+2025-11-19 17:05:44,849 - ERROR - Login failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=142.0.7444.163)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff77fe7a235
+	0x7ff77fbd2630
+	0x7ff77f9616dd
+	0x7ff77f938e31
+	0x7ff77f9ea22e
+	0x7ff77fa0b3d2
+	0x7ff77f9ab0ed
+	0x7ff77f9abf63
+	0x7ff77fea5d60
+	0x7ff77fe9fe8a
+	0x7ff77fec1005
+	0x7ff77fbed71e
+	0x7ff77fbf4e1f
+	0x7ff77fbdb7c4
+	0x7ff77fbdb97f
+	0x7ff77fbc18e8
+	0x7ffb9a09e8d7
+	0x7ffb9b5ac53c
+
+2025-11-20 11:57:38,013 - INFO - Logging in to LinkedIn...
+2025-11-20 11:57:59,657 - INFO - Successfully logged in to LinkedIn
+2025-11-20 11:57:59,943 - INFO - Creating LinkedIn post...
+2025-11-20 11:57:59,950 - INFO - Cleaned content: Exploring the fascinating world of Automation in tech. The potential applications are incredible! Wh...
+2025-11-20 11:58:37,250 - INFO - Post created successfully!
